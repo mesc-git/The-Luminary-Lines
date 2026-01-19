@@ -1,0 +1,10 @@
+node_modules/
+vendor/
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup/
+*.zip
+*.tar
+*.gz
+*.log
+.env
