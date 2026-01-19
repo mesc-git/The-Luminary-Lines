@@ -200,7 +200,7 @@
           </li>
           <li class="dropdown__container ms-4">
             <div class="d-flex justify-content-between align-items-center ga">
-              <a href="faq.php">FAQ'S </a>
+              <a href="faq.php">FAQ </a>
             </div>
           </li>
           <!-- <li class="dropdown ms-4 ga"><a href="#"><span>Our Work </span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
