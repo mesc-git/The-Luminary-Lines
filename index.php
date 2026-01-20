@@ -1933,7 +1933,7 @@
 <div class="container-fluid  ">
   <div class="row">
     <div class="col-lg-4 blog-col1 g-0 bg-light">
-      <h1 class="fw-bold text-dark">Our<br> Blogs<span> ...</span></h1>
+      <h1 class="fw-bold text-dark">Our<br> Blogs<span>...</span></h1>
     </div>
     <div class="col-lg-4 blog-col2 g-0">
       <h5><span>News </span> / 10 Febuary 2024</h5>

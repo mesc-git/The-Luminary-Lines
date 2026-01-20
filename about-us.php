@@ -126,12 +126,12 @@
       <img src="assets/img/banner/mandv.gif" alt="">
     </div>
     <div class="col-lg-6 vm2">
-      <h2>Our Vision /
+      <h2>Our Vision 
       </h2>
       <p class="mt-3">Our vision is to provide services that help brands become more successful online.
       </p>
       <h2 class="mt-5">
-        Our Mission /
+        Our Mission 
       </h2>
       <p class="mt-3">Our mission is to fulfill the goals of every brand by providing helpful solutions.
       </p>
@@ -430,7 +430,7 @@
     <div class="col-lg-6 mesc-img "><img src="assets/img/about/shankarmahadeven.png" alt="" class="ramesh-sir" data-aos="zoom-in" data-aos-delay="200" data-aos-offset="200" data-aos-duration="1000"></div>
     <div class="col-lg-6 mesc-title g-0">
       <h1>Our Mentor</h1>
-      <h2 data-aos="zoom-in" data-aos-delay="60" data-aos-offset="100" data-aos-duration="1000">Padma Shri Dr.Shankar Mahadevan
+      <h2 data-aos="zoom-in" data-aos-delay="60" data-aos-offset="100" data-aos-duration="1000">Padma Shri Dr. Shankar Mahadevan
       </h2>
       <h5 data-aos="zoom-in" data-aos-delay="60" data-aos-offset="100" data-aos-duration="1000"> Chairman, MESC, Indian singer and composer</h5>
       <hr class="min-div">
