@@ -230,7 +230,7 @@
             <span> Book a meeting</span>
             <img src="assets/icons/arrow-up-right.svg" alt="" />
           </a> -->
-          <button class="btn common__btn_h" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Book a meeting</button>
+          <button id="book_meeting_btn" class="btn common__btn_h" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Book a meeting</button>
         </div>
 
       </div>

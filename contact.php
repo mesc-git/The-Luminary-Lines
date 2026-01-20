@@ -242,6 +242,15 @@
     });
   });
 </script>
+<script>
+  document.addEventListener("DOMContentLoaded", ()=>{
+    const bookBtn = document.getElementById("book_meeting_btn");
+
+    if(bookBtn && window.location.href.includes('/contact.php')){
+      bookBtn.style.display = "none";
+    }
+  })
+</script>
 </body>
 
 </html>
