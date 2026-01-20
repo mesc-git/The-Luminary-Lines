@@ -955,8 +955,9 @@
     <div class="portfolio-grid zoom-gallery">
 
       <!-- PODCAST VIDEOS -->
-      <div class="portfolio-item podcast">
+      <div class="portfolio-item podcast" style="border: 1px solid lightgrey;">
         <iframe src="https://www.youtube.com/embed/T4GNMXei5MI" allowfullscreen></iframe>
+          <p style="text-align:center; background-color: lightgrey; margin-top: -6px; padding: 4px 0px 4px 0px;">Delhi Creators Summit @2025</p>
       </div>
       <div class="portfolio-item podcast">
         <iframe src="https://www.youtube.com/embed/fLByhjX_lpg" allowfullscreen></iframe>
