@@ -88,7 +88,7 @@
       <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0" data-aos-duration="1000">
         <div class="contact__form">
           <!-- <h5 class="t__28">Get In Touch Here</h5> -->
-          <form action="">
+          <!-- <form action="">
             <div class="row">
               <div class="col-md-6">
                 <input type="text" placeholder="Your Name" />
@@ -125,7 +125,67 @@
                 </button>
               </div>
             </div>
-          </form>
+          </form> -->
+         <div id="form-container-contactUs">
+          <form id="contactUsForm" class="row g-3 needs-validation" novalidate>
+    
+    <div class="col-md-6">
+      <label class="form-label">Name</label>
+      <input type="text" class="form-control" name="first_name" required>
+    </div>
+
+    <div class="col-md-6">
+      <label class="form-label">Email</label>
+      <input type="email" class="form-control" name="email" required>
+    </div>
+
+    <div class="col-md-6">
+      <label class="form-label">Company Name</label>
+      <input type="text" class="form-control" name="company_name" required>
+    </div>
+
+    <div class="col-md-6">
+      <label class="form-label">Project Type</label>
+      <select class="form-select" name="project_type" required>
+        <option selected disabled value="">Select The Option</option>
+        <option value="Services">Services</option>
+        <option value="Consulting">Consulting</option>
+        <option value="Media and Promotion">Media and Promotion</option>
+      </select>
+    </div>
+
+    <div class="col-md-12">
+      <label class="form-label">Additional Comments</label>
+      <textarea class="form-control" name="comments" rows="4" required></textarea>
+    </div>
+
+    <!-- <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="terms" value="Agreed" required>
+        <label class="form-check-label">Agree to terms and conditions</label>
+      </div>
+    </div> -->
+
+    <div class="col-12">
+      <button class="btn f-btn" type="submit">Submit form</button>
+    </div>
+  </form>
+  </div>
+   <!-- LOADER -->
+  <div id="loaderContactUs" style="display:none; text-align:center; margin-top:20px;">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <p style="margin-top:10px;">Submitting, please wait...</p>
+  </div>
+</div>
+
+<!-- THANK YOU MESSAGE -->
+<div id="thank-you-message-contactUs" style="display:none; text-align:center;">
+  <h3>Thank you!</h3>
+  <p>Your details has been submitted successfully.  
+     We’ll get back to you shortly.</p>
+</div>
         </div>
       </div>
     </div>
@@ -141,7 +201,47 @@
 <!-- --------------- End Map --------------- -->
 
 <!-- --------------- start Footer ----------- -->
-<?php include('footer.php'); ?>
+<?php include'footer.php'; ?>
+
+<script>
+  const form = document.getElementById("contactUsForm");
+  const loader = document.getElementById("loaderContactUs");
+  const formContainer = document.getElementById("form-container-contactUs");
+  const thankYou = document.getElementById("thank-you-message-contactUs");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+
+    if (!form.checkValidity()) {
+      form.classList.add("was-validated");
+      return;
+    }
+
+    form.style.display = "none";
+    loader.style.display = "block";
+
+    const formData = new FormData(form);
+
+    fetch("https://script.google.com/macros/s/AKfycbxJ9-uxksFXC9ZMGs7DD8BpUdP8GTS7lVnGTNVtBczRGmhY_XJa9Oz3rjVXAjZDANlXJw/exec", {
+      method: "POST",
+      body: formData
+    })
+    .then(response => response.text())
+    .then(data => {
+      loader.style.display = "none";
+      formContainer.style.display = "none";
+      thankYou.style.display = "block";
+      form.reset();
+    })
+    .catch(error => {
+      loader.style.display = "none";
+      form.style.display = "block";
+      alert("Something went wrong. Please try again.");
+      console.error(error);
+    });
+  });
+</script>
 </body>
 
 </html>
