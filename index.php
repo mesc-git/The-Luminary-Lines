@@ -166,11 +166,10 @@
 
 }
 .portfolio-item img {
-  width: 102%;
+  width: 100%;
   height: 280px;
   object-fit: cover;
 }
-
 
 
 .load-more-wrapper {
@@ -188,17 +187,88 @@
   cursor: pointer;
 }
 
-.portfolio-item img {
+/* .portfolio-item img {
   transition: transform 0.4s ease;
 }
 
 .portfolio-item:hover img {
   transform: scale(1.08);
-}
+} */
 
 .mfp-img {
   cursor: zoom-out;
 }
+
+/* portfolio Event-Tab  */
+.portfolio-item.events {
+  border: 1px solid lightgray;
+  overflow: hidden;
+}
+
+.portfolio-item.events img {
+  width: 100%;
+  display: block;
+}
+
+.portfolio-item.events .event-title {
+  text-align: center;
+  background-color: lightgrey;
+  margin-top: -6px;
+  padding: 8px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Celebrity Tab */
+.portfolio-item.celebrity {
+  border: 1px solid lightgray;
+  overflow: hidden;
+}
+
+.portfolio-item.celebrity img {
+  width: 100%;
+  display: block;
+
+}
+
+.portfolio-item.celebrity .celebrity-title {
+  text-align: center;
+  background-color: lightgrey;
+  margin-top: -6px;
+  padding: 4px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.portfolio-item.celebrity .celebrity-desg {
+  text-align: center;
+  background-color: lightgrey;
+  margin-top: -6px;
+  padding: 4px 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.portfolio-item.portfolio-item.branding {
+  border: 1px solid lightgray;
+  overflow: hidden;
+}
+
+/* Branding-Tab */
+.portfolio-item.branding img {
+  width: 100%;
+  display: block;
+}
+
+.portfolio-item.branding .branding-title {
+  text-align: center;
+  background-color: lightgrey;
+  margin-top: -6px;
+  padding: 4px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
 
 /* ===============================
    MOBILE RESPONSIVE (ONLY)
@@ -985,145 +1055,188 @@
       </div>
 
       <!-- BRANDING IMAGES -->
-<div class="portfolio-item branding">
-        <a href="assets/img/eventsImages/branding-img4.jpeg"><img src="assets/img/eventsImages/branding-img4.jpeg" alt="Branding 4"></a>
+       <div class="portfolio-item branding">
+        <a href="assets/img/eventsImages/branding-img1.jpg"><img src="assets/img/eventsImages/branding-img1.jpg" alt="Branding 1" loading="lazy" ></a>
+        <p class="branding-title">Comic Con India - IICS</p>
+      </div>
+      <div class=" portfolio-item branding">
+        <a href="assets/img/eventsImages/branding-img2.jpg"><img src="assets/img/eventsImages/branding-img2.jpg" alt="Branding 2" loading="lazy"></a>
+        <p class="branding-title">Comic Con India - IICS</p>
       </div>
       <div class="portfolio-item branding">
-        <a href="assets/img/eventsImages/branding-img5.jpeg"><img src="assets/img/eventsImages/branding-img5.jpeg" alt="Branding 5"></a>
+        <a href="assets/img/eventsImages/branding-img3.jpg"><img src="assets/img/eventsImages/branding-img3.jpg" alt="Branding 3" loading="lazy"></a>
+        <p class="branding-title">Comic Con India - IICS</p>
       </div>
       <div class="portfolio-item branding">
-        <a href="assets/img/eventsImages/branding-img6.jpeg"><img src="assets/img/eventsImages/branding-img6.jpeg" alt="Branding 6"></a>
+        <a href="assets/img/eventsImages/branding-img4.jpg"><img src="assets/img/eventsImages/branding-img4.jpg" alt="Branding 4" loading="lazy"></a>
+        <p class="branding-title">Comic Con India - IICS</p>
       </div>
       <div class="portfolio-item branding">
-        <a href="assets/img/eventsImages/branding-img7.jpeg"><img src="assets/img/eventsImages/branding-img7.jpeg" alt="Branding 7"></a>
+        <a href="assets/img/eventsImages/branding-img5.jpg"><img src="assets/img/eventsImages/branding-img5.jpg" alt="Branding 5" loading="lazy"></a>
+        <p class="branding-title">Comic Con India - IICS</p>
+      </div>
+      <div class="portfolio-item branding">
+        <a href="assets/img/eventsImages/branding-img6.jpg"><img src="assets/img/eventsImages/branding-img6.jpg" alt="Branding 6" loading="lazy"></a>
+        <p class="branding-title">Comic Con India - IICS</p>
+      </div>
+      <div class="portfolio-item branding">
+        <a href="assets/img/eventsImages/branding-img7.jpg"><img src="assets/img/eventsImages/branding-img7.jpg" alt="Branding 7" loading="lazy"></a>
+        <p class="branding-title">Comic Con India - IICS</p>
       </div>
 
       <div class="portfolio-item branding">
-        <a href="assets/img/eventsImages/branding-img1.png"><img src="assets/img/eventsImages/branding-img1.png" alt="Branding 1"></a>
+        <a href="assets/img/eventsImages/branding-img8.png"><img src="assets/img/eventsImages/branding-img8.png" alt="Branding 8" loading="lazy"></a>
       </div>
       <div class="portfolio-item branding">
-        <a href="assets/img/eventsImages/branding-img2.png"><img src="assets/img/eventsImages/branding-img2.png" alt="Branding 2"></a>
+        <a href="assets/img/eventsImages/branding-img9.jpg"><img src="assets/img/eventsImages/branding-img9.jpg" alt="Branding 9" loading="lazy"></a>
       </div>
       <div class="portfolio-item branding">
-        <a href="assets/img/eventsImages/branding-img3.png"><img src="assets/img/eventsImages/branding-img3.png" alt="Branding 3"></a>
-      </div>
-      
-      <div class="portfolio-item branding">
-        <a href="assets/img/eventsImages/branding-img8.png"><img src="assets/img/eventsImages/branding-img8.png" alt="Branding 8"></a>
-      </div>
-      <div class="portfolio-item branding">
-        <a href="assets/img/eventsImages/branding-img9.jpg"><img src="assets/img/eventsImages/branding-img9.jpg" alt="Branding 9"></a>
-      </div>
-      <div class="portfolio-item branding">
-        <a href="assets/img/eventsImages/branding-img10.jpg"><img src="assets/img/eventsImages/branding-img10.jpg" alt="Branding 10"></a>
+        <a href="assets/img/eventsImages/branding-img10.jpg"><img src="assets/img/eventsImages/branding-img10.jpg" alt="Branding 10" loading="lazy"></a>
       </div>
 
       <!-- EVENTS IMAGES -->
       <div class="portfolio-item events">
-        <a href="assets/img/eventsImages/madeformedia-event-img1.JPG"><img src="assets/img/eventsImages/madeformedia-event-img1.JPG" alt="Event 1"></a>
+        <a href="assets/img/eventsImages/madeformedia-event-img1.JPG"><img src="assets/img/eventsImages/madeformedia-event-img1.JPG" alt="Event 1" loading="lazy"></a>
+        <p class="event-title">Made for Media - IICS</p>
       </div>
-      <div class="portfolio-item events">
-        <a href="assets/img/eventsImages/madeformedia-event-img2.JPG"><img src="assets/img/eventsImages/madeformedia-event-img2.JPG" alt="Event 2"></a>
-      </div>
-      <div class="portfolio-item events">
-        <a href="assets/img/eventsImages/madeformedia-event-img3.JPG"><img src="assets/img/eventsImages/madeformedia-event-img3.JPG" alt="Event 3"></a>
-      </div>
-      <div class="portfolio-item events">
-        <a href="assets/img/eventsImages/madeformedia-event-img4.JPG"><img src="assets/img/eventsImages/madeformedia-event-img4.JPG" alt="Event 4"></a>
-      </div>
-      <div class="portfolio-item events">
-        <a href="assets/img/eventsImages/madeformedia-event-img5.JPG"><img src="assets/img/eventsImages/madeformedia-event-img5.JPG" alt="Event 5"></a>
-      </div>
-      <div class="portfolio-item events">
-        <a href="assets/img/eventsImages/madeformedia-event-img6.JPG"><img src="assets/img/eventsImages/madeformedia-event-img6.JPG" alt="Event 6"></a>
-      </div>
-      <div class="portfolio-item events">
-        <a href="assets/img/eventsImages/madeformedia-event-img7.JPG"><img src="assets/img/eventsImages/madeformedia-event-img7.JPG" alt="Event 7"></a>
-      </div>
-      <div class="portfolio-item events">
-        <a href="assets/img/eventsImages/madeformedia-event-img8.JPG"><img src="assets/img/eventsImages/madeformedia-event-img8.JPG" alt="Event 8"></a>
-      </div>
-      <div class="portfolio-item events">
-  <a href="assets/img/eventsImages/bhopal-event-img1.JPG">
-    <img src="assets/img/eventsImages/bhopal-event-img1.JPG" alt="Bhopal Event 1">
-  </a>
-</div>
 
-<div class="portfolio-item events">
-  <a href="assets/img/eventsImages/bhopal-event-img2.JPG">
-    <img src="assets/img/eventsImages/bhopal-event-img2.JPG" alt="Bhopal Event 2">
-  </a>
-</div>
+      <div class="portfolio-item events">
+        <a href="assets/img/eventsImages/madeformedia-event-img2.JPG"><img src="assets/img/eventsImages/madeformedia-event-img2.JPG" alt="Event 2" loading="lazy"></a>
+        <p class="event-title">Made for Media - IICS</p>
+      </div>
+
+      <div class="portfolio-item events">
+        <a href="assets/img/eventsImages/madeformedia-event-img3.JPG"><img src="assets/img/eventsImages/madeformedia-event-img3.JPG" alt="Event 3" loading="lazy"></a>
+        <p class="event-title">Made for Media - IICS</p>
+      </div>
+
+      <div class="portfolio-item events">
+        <a href="assets/img/eventsImages/madeformedia-event-img4.JPG"><img src="assets/img/eventsImages/madeformedia-event-img4.JPG" alt="Event 4" loading="lazy"></a>
+        <p class="event-title">Made for Media - IICS</p>
+      </div>
+
+      <div class="portfolio-item events">
+        <a href="assets/img/eventsImages/madeformedia-event-img5.JPG"><img src="assets/img/eventsImages/madeformedia-event-img5.JPG" alt="Event 5" loading="lazy"></a>
+        <p class="event-title">Made for Media - IICS</p>
+      </div>
+
+      <div class="portfolio-item events">
+        <a href="assets/img/eventsImages/madeformedia-event-img6.JPG"><img src="assets/img/eventsImages/madeformedia-event-img6.JPG" alt="Event 6" loading="lazy"></a>
+        <p class="event-title">Made for Media - IICS</p>
+      </div>
+
+      <div class="portfolio-item events">
+        <a href="assets/img/eventsImages/madeformedia-event-img7.JPG"><img src="assets/img/eventsImages/madeformedia-event-img7.JPG" alt="Event 7" loading="lazy"></a>
+        <p class="event-title">Made for Media - IICS</p>
+      </div>
+
+      <div class="portfolio-item events">
+        <a href="assets/img/eventsImages/madeformedia-event-img8.JPG"><img src="assets/img/eventsImages/madeformedia-event-img8.JPG" alt="Event 8" loading="lazy"></a>
+        <p class="event-title">Made for Media - IICS</p>
+      </div>
+
+      <div class="portfolio-item events">
+        <a href="assets/img/eventsImages/bhopal-event-img1.JPG"><img src="assets/img/eventsImages/bhopal-event-img1.JPG" alt="Bhopal Event 1" loading="lazy"></a>
+        <p class="event-title">Bhopal Career Awareness workshop - IICS</p>
+      </div>
+
+      <div class="portfolio-item events">
+        <a href="assets/img/eventsImages/bhopal-event-img2.JPG">
+      <img src="assets/img/eventsImages/bhopal-event-img2.JPG" alt="Bhopal Event 2" loading="lazy"></a>
+      <p class="event-title">Bhopal Career Awareness workshop - IICS</p>
+      </div>
 
 <div class="portfolio-item events">
   <a href="assets/img/eventsImages/bhopal-event-img3.JPG">
-    <img src="assets/img/eventsImages/bhopal-event-img3.JPG" alt="Bhopal Event 3">
+    <img src="assets/img/eventsImages/bhopal-event-img3.JPG" alt="Bhopal Event 3" loading="lazy">
   </a>
+  <p class="event-title">Bhopal Career Awareness workshop - IICS</p>
 </div>
 
 <div class="portfolio-item events">
   <a href="assets/img/eventsImages/bhopal-event-img4.JPG">
-    <img src="assets/img/eventsImages/bhopal-event-img4.JPG" alt="Bhopal Event 4">
+    <img src="assets/img/eventsImages/bhopal-event-img4.JPG" alt="Bhopal Event 4" loading="lazy">
   </a>
+  <p class="event-title">Bhopal Career Awareness workshop - IICS</p>
 </div>
 
 <!-- EVENTS : Taj Hotel -->
 <div class="portfolio-item events">
   <a href="assets/img/eventsImages/tajhotel-event-img1.JPG">
-    <img src="assets/img/eventsImages/tajhotel-event-img1.JPG" alt="Taj Hotel Event 1">
+    <img src="assets/img/eventsImages/tajhotel-event-img1.JPG" alt="Taj Hotel Event 1" loading="lazy">
   </a>
+  <p class="event-title">Interaction with Career Advisors - IICS</p>
 </div>
 
 <div class="portfolio-item events">
   <a href="assets/img/eventsImages/tajhotel-event-img2.JPG">
-    <img src="assets/img/eventsImages/tajhotel-event-img2.JPG" alt="Taj Hotel Event 2">
+    <img src="assets/img/eventsImages/tajhotel-event-img2.JPG" alt="Taj Hotel Event 2" loading="lazy">
   </a>
+  <p class="event-title">Interaction with Career Advisors - IICS</p>
 </div>
 
 <div class="portfolio-item events">
   <a href="assets/img/eventsImages/tajhotel-event-img3.JPG">
-    <img src="assets/img/eventsImages/tajhotel-event-img3.JPG" alt="Taj Hotel Event 3">
+    <img src="assets/img/eventsImages/tajhotel-event-img3.JPG" alt="Taj Hotel Event 3" loading="lazy">
   </a>
+  <p class="event-title">Interaction with Career Advisors - IICS</p>
 </div>
 
 <div class="portfolio-item events">
   <a href="assets/img/eventsImages/tajhotel-event-img4.JPG">
-    <img src="assets/img/eventsImages/tajhotel-event-img4.JPG" alt="Taj Hotel Event 4">
+    <img src="assets/img/eventsImages/tajhotel-event-img4.JPG" alt="Taj Hotel Event 4" loading="lazy">
   </a>
+  <p class="event-title">Interaction with Career Advisors - IICS</p>
 </div>
 
 <div class="portfolio-item events">
   <a href="assets/img/eventsImages/tajhotel-event-img5.JPG">
-    <img src="assets/img/eventsImages/tajhotel-event-img5.JPG" alt="Taj Hotel Event 5">
+    <img src="assets/img/eventsImages/tajhotel-event-img5.JPG" alt="Taj Hotel Event 5" loading="lazy">
   </a>
+  <p class="event-title">Interaction with Career Advisors - IICS</p>
 </div>
 
       <!-- CELEBRITY MANAGEMENT IMAGES -->
       <div class="portfolio-item celebrity">
-        <a href="assets/img/eventsImages/celebrity-img1.jpeg"><img src="assets/img/eventsImages/celebrity-img1.jpeg" alt="Celebrity 1"></a>
+        <a href="assets/img/eventsImages/celebrity-img1.jpeg"><img src="assets/img/eventsImages/celebrity-img1.jpeg" alt="Celebrity 1" loading="lazy"></a>
+        <p class="celebrity-title"></p>
       </div>
       <div class="portfolio-item celebrity">
-        <a href="assets/img/eventsImages/celebrity-img2.jpeg"><img src="assets/img/eventsImages/celebrity-img2.jpeg" alt="Celebrity 2"></a>
+        <a href="assets/img/eventsImages/celebrity-img2.jpeg"><img src="assets/img/eventsImages/celebrity-img2.jpeg" alt="Celebrity 2" loading="lazy"></a>
+        <p class="celebrity-title">Hanif Shaikh</p>
+        <p class="celebrity-desg">Music composer, lyricist and director</p>
       </div>
       <div class="portfolio-item celebrity">
-        <a href="assets/img/eventsImages/celebrity-img3.jpeg"><img src="assets/img/eventsImages/celebrity-img3.jpeg" alt="Celebrity 3"></a>
+        <a href="assets/img/eventsImages/celebrity-img3.jpeg"><img src="assets/img/eventsImages/celebrity-img3.jpeg" alt="Celebrity 3" loading="lazy"></a>
+        <p class="celebrity-title">Rahul Rawail</p>
+        <p class="celebrity-desg">Indian former film director</p>
       </div>
       <div class="portfolio-item celebrity">
-        <a href="assets/img/eventsImages/celebrity-img4.jpeg"><img src="assets/img/eventsImages/celebrity-img4.jpeg" alt="Celebrity 4"></a>
+        <a href="assets/img/eventsImages/celebrity-img4.jpeg"><img src="assets/img/eventsImages/celebrity-img4.jpeg" alt="Celebrity 4" loading="lazy"></a>
+        <p class="celebrity-title">Arbaaz Khan</p>
+        <p class="celebrity-desg">Indian actor and film producer</p>
       </div>
       <div class="portfolio-item celebrity">
-        <a href="assets/img/eventsImages/celebrity-img5.jpeg"><img src="assets/img/eventsImages/celebrity-img5.jpeg" alt="Celebrity 5"></a>
+        <a href="assets/img/eventsImages/celebrity-img5.jpeg"><img src="assets/img/eventsImages/celebrity-img5.jpeg" alt="Celebrity 5" loading="lazy"></a>
+        <p class="celebrity-title">Usha Uthup</p>
+        <p class="celebrity-desg">Indian singer
+</p>
       </div>
       <div class="portfolio-item celebrity">
-        <a href="assets/img/eventsImages/celebrity-img6.jpeg"><img src="assets/img/eventsImages/celebrity-img6.jpeg" alt="Celebrity 6"></a>
+        <a href="assets/img/eventsImages/celebrity-img6.jpeg"><img src="assets/img/eventsImages/celebrity-img6.jpeg" alt="Celebrity 6" loading="lazy"></a>
+           <p class="celebrity-title">Ms. Neeta Lulla</p>
+        <p class="celebrity-desg">Indian costume designer</p>
       </div>
       <div class="portfolio-item celebrity">
-        <a href="assets/img/eventsImages/celebrity-img7.jpeg"><img src="assets/img/eventsImages/celebrity-img7.jpeg" alt="Celebrity 7"></a>
+        <a href="assets/img/eventsImages/celebrity-img7.jpeg"><img src="assets/img/eventsImages/celebrity-img7.jpeg" alt="Celebrity 7" loading="lazy"></a>
+        <p class="celebrity-title">Padma Shri Shankar Mahadevan</p>
+        <p class="celebrity-desg">Indian singer and composer</p>
       </div>
       <div class="portfolio-item celebrity">
-        <a href="assets/img/eventsImages/celebrity-img8.jpeg"><img src="assets/img/eventsImages/celebrity-img8.jpeg" alt="Celebrity 8"></a>
+        <a href="assets/img/eventsImages/celebrity-img8.jpeg"><img src="assets/img/eventsImages/celebrity-img8.jpeg" alt="Celebrity 8" loading="lazy"></a>
+        <p class="celebrity-title">Aparshakti Khurana</p>
+        <p class="celebrity-desg">Indian actor</p>
       </div>
-
     </div>
 
     <!-- Load More -->
