@@ -1019,6 +1019,7 @@
       <li data-filter="branding">BRANDING</li>
       <li data-filter="events">EVENTS</li>
       <li data-filter="celebrity">CELEBRITY MANAGEMENT</li>
+      <li data-filter="influencer">INFLUENCER</li>
     </ul>
 
     <!-- Portfolio Grid -->
@@ -1086,12 +1087,15 @@
 
       <div class="portfolio-item branding">
         <a href="assets/img/eventsImages/branding-img8.png"><img src="assets/img/eventsImages/branding-img8.png" alt="Branding 8" loading="lazy"></a>
+        <p class="branding-title">Car Branding</p>
       </div>
       <div class="portfolio-item branding">
         <a href="assets/img/eventsImages/branding-img9.jpg"><img src="assets/img/eventsImages/branding-img9.jpg" alt="Branding 9" loading="lazy"></a>
+        <p class="branding-title">Website Banner</p>
       </div>
       <div class="portfolio-item branding">
         <a href="assets/img/eventsImages/branding-img10.jpg"><img src="assets/img/eventsImages/branding-img10.jpg" alt="Branding 10" loading="lazy"></a>
+        <p class="branding-title">Social Media Post</p>
       </div>
 
       <!-- EVENTS IMAGES -->
@@ -1237,7 +1241,58 @@
         <p class="celebrity-title">Aparshakti Khurana</p>
         <p class="celebrity-desg">Indian actor</p>
       </div>
+      <div class="portfolio-item celebrity">
+        <a href="assets/img/eventsImages/celebrity-img9.JPG"><img src="assets/img/eventsImages/celebrity-img9.JPG" alt="Celebrity 9" loading="lazy"></a>
+        <p class="celebrity-title">Terence Lewis</p>
+        <p class="celebrity-desg">Indian dancer and choreographer</p>
+      </div>
+
+      <!-- INFLUENCER IMAGES -->
+       <div class="portfolio-item influencer">
+        <a href="assets/img/eventsImages/influencer-img1.JPG"><img src="assets/img/eventsImages/influencer-img1.JPG" alt="Influencer 1" loading="lazy"></a>
+      </div>
+
+      <div class="portfolio-item influencer">
+        <a href="assets/img/eventsImages/influencer-img2.JPG"><img src="assets/img/eventsImages/influencer-img2.JPG" alt="Influencer 2" loading="lazy"></a>
+      </div>
+
+      <div class="portfolio-item influencer">
+        <a href="assets/img/eventsImages/influencer-img3.JPG"><img src="assets/img/eventsImages/influencer-img3.JPG" alt="Influencer 3" loading="lazy"></a>
+      </div>
+
+      <div class="portfolio-item influencer">
+        <a href="assets/img/eventsImages/influencer-img4.JPG"><img src="assets/img/eventsImages/influencer-img4.JPG" alt="Influencer 4" loading="lazy"></a>
+      </div>
+
+      <div class="portfolio-item influencer">
+        <a href="assets/img/eventsImages/influencer-img5.JPG"><img src="assets/img/eventsImages/influencer-img5.JPG" alt="Influencer 5" loading="lazy"></a>
+      </div>
+
+      <div class="portfolio-item influencer">
+        <a href="assets/img/eventsImages/influencer-img6.JPG"><img src="assets/img/eventsImages/influencer-img6.JPG" alt="Influencer 6" loading="lazy"></a>
+      </div>
+
+      <div class="portfolio-item influencer">
+        <a href="assets/img/eventsImages/influencer-img7.JPG"><img src="assets/img/eventsImages/influencer-img7.JPG" alt="Influencer 7" loading="lazy"></a>
+      </div>
+
+      <div class="portfolio-item influencer">
+        <a href="assets/img/eventsImages/influencer-img8.JPG"><img src="assets/img/eventsImages/influencer-img8.JPG" alt="Influencer 8" loading="lazy"></a>
+      </div>
+
+      <div class="portfolio-item influencer">
+        <a href="assets/img/eventsImages/influencer-img9.jpg"><img src="assets/img/eventsImages/influencer-img9.jpg" alt="Influencer 9" loading="lazy"></a>
+      </div>
+
+      <div class="portfolio-item influencer">
+        <a href="assets/img/eventsImages/influencer-img10.JPG"><img src="assets/img/eventsImages/influencer-img10.JPG" alt="Influencer 10" loading="lazy"></a>
+      </div>
+
     </div>
+
+    
+
+    
 
     <!-- Load More -->
     <div class="load-more-wrapper">
