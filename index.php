@@ -9,6 +9,9 @@
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
 
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+
     <!-- jQuery (required) -->
 <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 
@@ -63,40 +66,55 @@
 </div> -->
 
 
-<style>
+<style>  
   
   .partner__content {
     overflow-x: hidden;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1800px;
+    /* width: 1800px; */
     animation: scroll 2s linear infinite
   }
 
  .clientSwiper {
-  width: 100%;
-  padding: 10px 10px;
+  padding: 20px 0;
 }
 
 .swiper-slide {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .newclient {
-  height: 100px;
+  width: 100%;
+  height: 120px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .newclient img {
-  max-width: 140px;
-  max-height: 100px;
+  max-width: 100%;
+  max-height: 80px;
   object-fit: contain;
-  filter: none !important;
+  filter: grayscale(100%);
+  transition: all 0.4s ease;
+  opacity: 0.8;
 }
+
+.newclient img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  /* transform: scale(1.05); */
+}
+
+.clientSwiper .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
+
 
 
 /* ===============================
@@ -455,9 +473,11 @@
     </div>
   </div>
 </div> -->
-<div class="container-fluid">
+
+
+<div class="container-fluid about-section">
   <div class="row">
-    <div class="col-lg-6 ab-h">
+    <div class="col-lg-6 ab-h ">
       <h3><span class="fw-bold">Ready to shine?</span><br> Choose Luminary Lines and let your brand luminate the world</h3>
     </div>
     <div class="col-lg-6 ab-p">
@@ -684,7 +704,9 @@
   </section> -->
 <!-- new services end -->
 
-<div class="container-fluid get">
+
+
+<!-- <div class="container-fluid get">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-6 mt-5 get-head">
@@ -694,18 +716,15 @@
             Get in contact.
 
           </span>
-          <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, neque. A natus iusto odit excepturi! </h2> -->
       </div>
       <div class="col-lg-4 col-md-6 get-btn ">
         <a href="#getintouch">
           <span>Book a meeting</span>
-          <!-- <img src="assets/icons/arrow-up-rignt-black.svg" alt="" /> -->
         </a>
-
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <section id="recent-blog-posts" class="what-we-do1">
   <div class="container" data-aos="fade-up">
 
@@ -821,6 +840,74 @@
 </section>
 
 
+<!-- Our Client -->
+
+<div class="container-fluid" style="background-color: #032539;">
+  <div class="pt-5">
+    <h1 class="text-center text-light">Our Clients</h1>
+  </div>
+
+  <div class=" py-5">
+    <div class="swiper clientSwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="newclient">
+            <img src="assets/img/clients/mesc logo.png" alt="MESC">
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="newclient">
+            <img src="assets/img/clients/mediatalkback.png" alt="Media Talkback">
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="newclient">
+            <img src="assets/img/clients/NSDC.png" alt="NSDC">
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="newclient">
+            <img src="assets/img/clients/indiaskilllogo.png" alt="India Skill">
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="newclient">
+            <img src="assets/img/clients/ficsilogo.png" alt="FICSI">
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="newclient">
+            <img src="assets/img/clients/ncvtlogo.png" alt="NCVT">
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="newclient">
+            <img src="assets/img/clients/vidyadaanlogo.png" alt="Vidyadaan">
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="newclient">
+            <img src="assets/img/clients/MECAT-Logo.png" alt="MECAT">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
 <!-- <div class="container-fluid g-0 mt-5">
   <div class="container source1">
     <div class="row text-center text-drak ">
@@ -924,82 +1011,7 @@
   </div>
 </div> -->
 
-<!-- clients -->
 
-<section class="py-20">
-  <div class="section-header">
-        <h2 class="text-center text-dark">Our Clients</h2>
-        <!-- <p>In this blog post, we will explore the top five construction trends that are revolutionizing the way projects
-          are planned, designed, and executed</p> -->
-      </div>
-
-      <div class="bg-white swiper clientSwiper">
-        <div class="swiper-wrapper">
-      
-          <div class="swiper-slide">
-            <div class="newclient">
-              <img src="assets/img/clients/mesc logo.png">
-            </div>
-          </div>
-      
-          <div class="swiper-slide">
-            <div class="newclient">
-              <img src="assets/img/clients/mediatalkback.png">
-            </div>
-          </div>
-      
-          <div class="swiper-slide">
-            <div class="newclient">
-              <img src="assets/img/clients/NSDC LOGO.png">
-            </div>
-          </div>
-      
-          <div class="swiper-slide">
-            <div class="newclient">
-              <img src="assets/img/clients/indiaskill.jpg">
-            </div>
-          </div>
-      
-          <div class="swiper-slide">
-            <div class="newclient">
-              <img src="assets/img/clients/ficsi.png">
-            </div>
-          </div>
-      
-          <div class="swiper-slide">
-            <div class="newclient">
-              <img src="assets/img/clients/ncvt.png">
-            </div>
-          </div>
-      
-          <div class="swiper-slide">
-            <div class="newclient">
-              <img src="assets/img/clients/vidya daan logo.jpg">
-            </div>
-          </div>
-      
-          <div class="swiper-slide">
-            <div class="newclient">
-              <img src="assets/img/clients/MECAT Logo.png">
-            </div>
-          </div>
-      
-           <div class="swiper-slide">
-            <div class="newclient">
-              <img src="assets/img/clients/iics-logo.png">
-            </div>
-          </div>
-
-          <div class="swiper-slide">
-            <div class="newclient">
-              <img src="assets/img/clients/creative warriors logo new.jpg">
-            </div>
-          </div>
-        </div>
-      </div>
-</section>
-
-<!-- ends clients -->
 
 <!-- ===== Latest Works Section ===== -->
  
@@ -1322,8 +1334,8 @@
       <div class="col-lg-2 col-sm-6  parts"> <img src="assets/img/clients/MECAT Logo.png" alt="" class="partner__logo" /></div>
     </div>
   </div>
-</div> -->
-<!-- <div class="conatiner-fluid mt-5">
+</div>
+<div class="conatiner-fluid mt-5">
   <div class="container">
     <div class="row clients-row">
       <ul class="clients">
@@ -1338,7 +1350,7 @@
 
         </li>
         <li>
-          <img src="assets/img/clients/indiaskillshigh.png" alt="" class="partner__logo" />
+          <img src="assets/img/clients/indiaskilllogo.png" alt="" class="partner__logo" />
         </li>
         <li>
           <img src="assets/img/clients/NSDC.png" alt="" class="partner__logo" />
@@ -2306,32 +2318,34 @@ document.addEventListener("DOMContentLoaded", function () {
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    new Swiper(".clientSwiper", {
-      loop: true,
-      slidesPerView: 6,
-      spaceBetween: 2,
-      autoplay: {
-        delay: 2000,
-        disableOnInteraction: false,
+  var swiper = new Swiper(".clientSwiper", {
+    slidesPerView: 5,
+    spaceBetween: 40,
+    loop: true,
+    allowTouchMove: false,
+    speed: 5000,           
+    autoplay: {
+      delay: 0,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 2,
       },
-      breakpoints: {
-        0: {
-          slidesPerView: 3
-        },
-        576: {
-          slidesPerView: 3
-        },
-        768: {
-          slidesPerView: 4
-        },
-        992: {
-          slidesPerView: 5
-        }
-      }
-    });
+      576: {
+        slidesPerView: 3,
+      },
+      768: {
+        slidesPerView: 4,
+      },
+      992: {
+        slidesPerView: 5,
+      },
+    },
   });
 </script>
+
+
 
     <!-- jQuery (required) -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
