@@ -1,0 +1,276 @@
+.partner__content {
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 1800px; */
+  animation: scroll 2s linear infinite;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newclient {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newclient img {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: all 0.4s ease;
+  opacity: 0.8;
+}
+
+.newclient img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  /* transform: scale(1.05); */
+}
+
+.clientSwiper .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
+.client-heading {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+/* ===============================
+   OUR-PORTFOLIO SECTION
+================================ */
+.latest-works {
+  padding: 80px 0;
+  background: #fff6f3;
+}
+
+.latest-works h2 {
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.divider span {
+  width: 800px;
+  height: 1px;
+  background: #ccc;
+}
+
+.work-filters {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+  list-style: none;
+}
+
+.work-filters li {
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.work-filters li.active {
+  background: #000;
+  color: #fff;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.portfolio-item {
+  display: none;
+}
+
+.portfolio-item iframe {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+.portfolio-item img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.load-more-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#loadMoreBtn {
+  padding: 12px 35px;
+  border-radius: 30px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* .portfolio-item img {
+  transition: transform 0.4s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.08);
+} */
+
+.mfp-img {
+  cursor: zoom-out;
+}
+
+/* portfolio Event-Tab  */
+.portfolio-item.events {
+  border: 1px solid lightgray;
+  overflow: hidden;
+}
+
+.portfolio-item.events img {
+  width: 100%;
+  display: block;
+}
+
+.portfolio-item.events .event-title {
+  text-align: center;
+  background-color: lightgrey;
+  margin-top: -6px;
+  padding: 8px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Celebrity Tab */
+.portfolio-item.celebrity {
+  border: 1px solid lightgray;
+  overflow: hidden;
+}
+
+.portfolio-item.celebrity img {
+  width: 100%;
+  display: block;
+}
+
+.portfolio-item.celebrity .celebrity-title {
+  text-align: center;
+  background-color: lightgrey;
+  margin-top: -6px;
+  padding: 4px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.portfolio-item.celebrity .celebrity-desg {
+  text-align: center;
+  background-color: lightgrey;
+  margin-top: -6px;
+  padding: 4px 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.portfolio-item.portfolio-item.branding {
+  border: 1px solid lightgray;
+  overflow: hidden;
+}
+
+/* Branding-Tab */
+.portfolio-item.branding img {
+  width: 100%;
+  display: block;
+}
+
+.portfolio-item.branding .branding-title {
+  text-align: center;
+  background-color: lightgrey;
+  margin-top: -6px;
+  padding: 4px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* ===============================
+   MOBILE RESPONSIVE (ONLY)
+================================ */
+@media (max-width: 768px) {
+  .clientSwiper {
+    padding: 6px 0;
+  }
+
+  .newclient {
+    height: 80px;
+  }
+
+  .newclient img {
+    max-width: 90px;
+    max-height: 60px;
+  }
+
+  .swiper-slide {
+    justify-content: center;
+  }
+
+  .latest-works {
+    padding: 50px 15px;
+  }
+
+  .latest-works h2 {
+    font-size: 32px;
+  }
+
+  .divider span {
+    width: 80px;
+  }
+
+  .work-filters {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .work-filters li {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .portfolio-item iframe {
+    height: 220px;
+  }
+
+  .portfolio-item img {
+    height: 358px;
+  }
+
+  #loadMoreBtn {
+    padding: 10px 26px;
+    font-size: 14px;
+  }
+}

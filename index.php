@@ -9,7 +9,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
 
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <!-- custom-css link -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
 
 
     <!-- jQuery (required) -->
@@ -65,294 +66,6 @@
   </video>
 </div> -->
 
-
-<style>  
-  
-  .partner__content {
-    overflow-x: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* width: 1800px; */
-    animation: scroll 2s linear infinite
-  }
-
- .clientSwiper {
-  padding: 20px 0;
-}
-
-.swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.newclient {
-  width: 100%;
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.newclient img {
-  max-width: 100%;
-  max-height: 80px;
-  object-fit: contain;
-  filter: grayscale(100%);
-  transition: all 0.4s ease;
-  opacity: 0.8;
-}
-
-.newclient img:hover {
-  filter: grayscale(0%);
-  opacity: 1;
-  /* transform: scale(1.05); */
-}
-
-.clientSwiper .swiper-wrapper {
-  transition-timing-function: linear !important;
-}
-
-
-
-
-/* ===============================
-   OUR-PORTFOLIO SECTION
-================================ */
-.latest-works {
-  padding: 80px 0;
-  background: #fff6f3;
-}
-
-.latest-works h2 {
-  font-weight: 500;
-  color: black;
-  text-align: center;
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-
-.divider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  margin-bottom: 40px;
-}
-
-.divider span {
-  width: 800px;
-  height: 1px;
-  background: #ccc;
-}
-
-.work-filters {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-bottom: 40px;
-  list-style: none;
-}
-
-.work-filters li {
-  padding: 10px 25px;
-  border-radius: 30px;
-  border: 1px solid #ccc;
-  cursor: pointer;
-}
-
-.work-filters li.active {
-  background: #000;
-  color: #fff;
-}
-
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-}
-
-.portfolio-item {
-  display: none;
-}
-
-.portfolio-item iframe {
-  width: 100%;
-  height: 240px;
-  object-fit: cover;  
-
-}
-.portfolio-item img {
-  width: 100%;
-  height: 280px;
-  object-fit: cover;
-}
-
-
-.load-more-wrapper {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-}
-
-#loadMoreBtn {
-  padding: 12px 35px;
-  border-radius: 30px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-/* .portfolio-item img {
-  transition: transform 0.4s ease;
-}
-
-.portfolio-item:hover img {
-  transform: scale(1.08);
-} */
-
-.mfp-img {
-  cursor: zoom-out;
-}
-
-/* portfolio Event-Tab  */
-.portfolio-item.events {
-  border: 1px solid lightgray;
-  overflow: hidden;
-}
-
-.portfolio-item.events img {
-  width: 100%;
-  display: block;
-}
-
-.portfolio-item.events .event-title {
-  text-align: center;
-  background-color: lightgrey;
-  margin-top: -6px;
-  padding: 8px 0;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-/* Celebrity Tab */
-.portfolio-item.celebrity {
-  border: 1px solid lightgray;
-  overflow: hidden;
-}
-
-.portfolio-item.celebrity img {
-  width: 100%;
-  display: block;
-
-}
-
-.portfolio-item.celebrity .celebrity-title {
-  text-align: center;
-  background-color: lightgrey;
-  margin-top: -6px;
-  padding: 4px 0;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-.portfolio-item.celebrity .celebrity-desg {
-  text-align: center;
-  background-color: lightgrey;
-  margin-top: -6px;
-  padding: 4px 0;
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.portfolio-item.portfolio-item.branding {
-  border: 1px solid lightgray;
-  overflow: hidden;
-}
-
-/* Branding-Tab */
-.portfolio-item.branding img {
-  width: 100%;
-  display: block;
-}
-
-.portfolio-item.branding .branding-title {
-  text-align: center;
-  background-color: lightgrey;
-  margin-top: -6px;
-  padding: 4px 0;
-  font-size: 16px;
-  font-weight: 500;
-}
-
-
-/* ===============================
-   MOBILE RESPONSIVE (ONLY)
-================================ */
-@media (max-width: 768px) {
-
- .clientSwiper {
-    padding: 6px 0;
-  }
-
-  .newclient {
-    height: 80px;
-  }
-
-  .newclient img {
-    max-width: 90px;  
-    max-height: 60px;
-  }
-
-  .swiper-slide {
-    justify-content: center;
-  }
-
-  .latest-works {
-    padding: 50px 15px;
-  }
-
-  .latest-works h2 {
-    font-size: 32px;
-  }
-
-  .divider span {
-    width: 80px;
-  }
-
-  .work-filters {
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
-  .work-filters li {
-    padding: 8px 16px;
-    font-size: 13px;
-  }
-
-.portfolio-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-
-  .portfolio-item iframe,
-    height: 220px;
-  }
-
-  .portfolio-item img {
-    height: 358px;
-  }
-
-  #loadMoreBtn {
-    padding: 10px 26px;
-    font-size: 14px;
-  }
-}
-
-</style>
 <video autoplay="autoplay" loop muted playsinline class=" d-lg-block d-none head-video">
   <source src="assets/img/banner/Luminary-LInes-vid.mp4" class="object-fit-cover" type=video/mp4 autoplay mute loop>
 </video>
@@ -478,18 +191,19 @@
 <div class="container-fluid about-section">
   <div class="row">
     <div class="col-lg-6 ab-h ">
-      <h3><span class="fw-bold">Ready to shine?</span><br> Choose Luminary Lines and let your brand luminate the world</h3>
+      <h3><span class="fw-bold">Ready to shine?</span><br>Let's Illuminate Your Brand's Success</h3>
     </div>
     <div class="col-lg-6 ab-p">
+      <h3 class="fw-bold">Who We Are?</h3>
       <p>
-        Luminary Lines is an initiative backed by the renowned Media and Entertainment Skills Council.
+        In the realm of Media & Entertainment, <b>Luminary Lines</b>, an initiative by MESC illuminates pathways to innovative solutions and exceptional excellence.
       </p>
-      <p>
-        We serve as your growth partners in addition to being a design, consulting, and advertising agency.
+      
+      <p>Our expert team crafts impactful campaigns, provides strategic consulting insights, and delivers stunning designs that elevate your brand. From brand management and graphic design to web development, sound design, and on-ground activations, we offer comprehensive solutions tailored to your success.
+<p>Backed by MESC's legacy since 2012 under the Ministry of Skill Development & Entrepreneurship, we bring industry expertise, creative excellence, and strategic vision to every project.</p>
+
       </p>
-      <p>Our goal is to achieve unmatched success and take brands to new heights with our creative solutions.
-      </p>
-      <h4>info@theluminarylines.com</h4>
+      <!-- <h4>info@theluminarylines.com</h4> -->
     </div>
   </div>
 </div>
@@ -727,11 +441,8 @@
 </div> -->
 <section id="recent-blog-posts" class="what-we-do1">
   <div class="container" data-aos="fade-up">
-
-
-
     <div class=" section-header">
-      <h2 class="text-center text-dark">What We Do</h2>
+      <h2 class="text-center text-dark">What Can We Do Together?</h2>
       <!-- <p>In this blog post, we will explore the top five construction trends that are revolutionizing the way projects
         are planned, designed, and executed</p> -->
     </div>
@@ -748,10 +459,10 @@
 
           <div class="post-content d-flex flex-column">
             <a href="solution.php">
-              <h3 class="post-title mb-3">Solution</h3>
+              <h3 class="post-title mb-3">Branding & Promotions</h3>
             </a>
             <div class="meta d-flex align-items-center">
-              <p>Enhance your brand with strategic brand management, captivating graphic designs, user-friendly web solutions, and immersive sound experiences.</p>
+              <p>Strategic brand positioning and integrated marketing for sector skill councils, universities, and brands. We enhance visibility, drive engagement, and build lasting recognition.</p>
               <!-- <div class="d-flex align-items-center">
                 <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
               </div>
@@ -780,10 +491,10 @@
 
           <div class="post-content d-flex flex-column">
             <a href="consult.php">
-              <h3 class="post-title mb-3">Consulting</h3>
+              <h3 class="post-title mb-3">Consulting & Advocacy </h3>
             </a>
             <div class="meta d-flex align-items-center">
-              <p>We provide comprehensive consulting services, including startup support, incubation setup, Centers of Excellence, and Research & Development, to foster innovation and growth.</p>
+              <p>Expert guidance for skill councils, institutions, and organizations. We deliver strategic frameworks, program development, accreditation support, and policy advocacy for sustainable growth.</p>
               <!-- <div class="d-flex align-items-center">
                 <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
               </div>
@@ -812,10 +523,10 @@
 
           <div class="post-content d-flex flex-column">
             <a href="media&promotion.php">
-              <h3 class="post-title mb-3">Media And Promotion</h3>
+              <h3 class="post-title mb-3">Audio & Video(A&V) Production</h3>
             </a>
             <div class="meta d-flex align-items-center">
-              <p>Expert in brand building, consulting, promotion, digital marketing, activation, and events. Unlock your brand's potential!</p>
+              <p>Professional audiovisual content for institutions and brands, training modules, promotional videos, corporate films, and awareness campaigns that communicate effectively and engage stakeholders.</p>
               <!-- <div class="d-flex align-items-center">
                 <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
               </div>
@@ -832,7 +543,69 @@
           </div>
 
         </div>
-      </div><!-- End post item -->
+      </div>
+      <!-- End post item -->
+
+      <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+  <div class="post-item position-relative h-100">
+
+    <div class="post-img position-relative overflow-hidden">
+      <img src="assets/img/services/PR&Communication.png" class="img-fluid" alt="">
+    </div>
+
+    <div class="post-content d-flex flex-column">
+      <a href="digital-marketing.php">
+        <h3 class="post-title mb-3">PR & Communication</h3>
+      </a>
+
+      <div class="meta d-flex align-items-center">
+        <p>
+          Strategic reputation management and communications for skill councils, institutions, and brands. Media relations, thought leadership, stakeholder engagement, and crisis management services.
+        </p>
+      </div>
+
+      <hr>
+
+      <a href="digital-marketing.php" class="readmore stretched-link">
+        <span>Read More</span><i class="bi bi-arrow-right"></i>
+      </a>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- End of post Item -->
+
+<div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+  <div class="post-item position-relative h-100">
+
+    <div class="post-img position-relative overflow-hidden">
+      <img src="assets/img/services/event-campaign-management.png" class="img-fluid" alt="">
+    </div>
+
+    <div class="post-content d-flex flex-column">
+      <a href="events.php">
+        <h3 class="post-title mb-3">Event Management</h3>
+      </a>
+
+      <div class="meta d-flex align-items-center">
+        <p>
+          End-to-end execution of conferences, workshops, skill competitions, convocations, and launches for skill councils, universities, and brands. Seamless, impactful experiences delivered.
+        </p>
+      </div>
+
+      <hr>
+
+      <a href="events.php" class="readmore stretched-link">
+        <span>Read More</span><i class="bi bi-arrow-right"></i>
+      </a>
+    </div>
+
+  </div>
+</div>
+
 
     </div>
 
@@ -844,10 +617,11 @@
 
 <div class="container-fluid" style="background-color: #032539;">
   <div class="pt-5">
-    <h1 class="text-center text-light">Our Clients</h1>
+    <!-- <h1 class="client-heading text-center text-light">Our Clients</h1> -->
+    <h2 class="text-center">Some of Our Prestigious Clients</h2>
   </div>
 
-  <div class=" py-5">
+  <div class="py-5">
     <div class="swiper clientSwiper">
       <div class="swiper-wrapper">
 
@@ -1298,12 +1072,8 @@
       <div class="portfolio-item influencer">
         <a href="assets/img/eventsImages/influencer-img10.JPG"><img src="assets/img/eventsImages/influencer-img10.JPG" alt="Influencer 10" loading="lazy"></a>
       </div>
-
     </div>
 
-    
-
-    
 
     <!-- Load More -->
     <div class="load-more-wrapper">
