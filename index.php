@@ -621,7 +621,7 @@
     <h2 class="text-center">Some of Our Prestigious Clients</h2>
   </div>
 
-  <div class="py-5">
+  <div class="py-2">
     <div class="swiper clientSwiper">
       <div class="swiper-wrapper">
 
