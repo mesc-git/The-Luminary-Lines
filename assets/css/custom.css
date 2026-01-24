@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .partner__content {
   overflow-x: hidden;
   display: flex;
@@ -43,6 +49,163 @@
 .client-heading {
   font-size: 48px;
   font-weight: 500;
+}
+
+/* Case Studies Section  */
+
+.case-studies {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  /* margin-bottom: 10px; */
+}
+
+.left-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-section {
+  width: 50%;
+}
+
+.top-card {
+  height: 50%;
+}
+
+.bottom-cards {
+  height: 50%;
+  display: flex;
+}
+
+.bottom-left-card,
+.bottom-right-card {
+  width: 50%;
+}
+
+.top-card,
+.bottom-left-card,
+.bottom-right-card,
+.right-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+}
+
+.top-card {
+  background-color: gainsboro;
+  /* background-image: url("../img/services/PR&Communication.png"); */
+}
+
+.bottom-left-card {
+  background-color: #8d6e63; /* example color */
+}
+
+.bottom-right-card {
+  background-color: #c62828;
+}
+
+.right-card {
+  height: 100%;
+  background-color: cadetblue;
+}
+
+.top-card::before,
+.bottom-left-card::before,
+.bottom-right-card::before,
+.right-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.top-card:hover::before,
+.bottom-left-card:hover::before,
+.bottom-right-card:hover::before,
+.right-card:hover::before {
+  opacity: 1;
+}
+
+.case-studies h3,
+.case-studies a {
+  position: absolute;
+  z-index: 2;
+  transition:
+    bottom 0.2s ease,
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.case-studies h3 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  text-align: center;
+  width: 80%;
+  font-size: 22px;
+  color: #fff;
+}
+
+.case-studies a {
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%) scale(1);
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.top-card:hover h3,
+.bottom-left-card:hover h3,
+.bottom-right-card:hover h3,
+.right-card:hover h3 {
+  transform: translate(-50%, -45%) scale(1.05);
+}
+
+.top-card:hover a,
+.bottom-left-card:hover a,
+.bottom-right-card:hover a,
+.right-card:hover a {
+  bottom: 40px;
+  opacity: 0.9;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .case-studies {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+
+  .top-card {
+    height: 250px;
+  }
+
+  .bottom-cards {
+    flex-direction: column;
+  }
+
+  .bottom-left-card,
+  .bottom-right-card {
+    width: 100%;
+    height: 250px;
+  }
+
+  .right-card {
+    height: 300px;
+  }
 }
 
 /* ===============================

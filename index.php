@@ -605,12 +605,51 @@
 
   </div>
 </div>
-
-
     </div>
-
   </div>
 </section>
+
+ <!-- Case Studies Section  -->
+
+<div class="case-studies">
+  
+  <!-- LEFT SIDE -->
+  <div class="left-section">
+
+ 
+    
+    <!-- Top Card -->
+    <div class="top-card">
+       <h3 class="card-text">National Skill Development Corporation (NSDC)</h3>
+        <a href="#">View Case Study →</a>
+    </div>
+
+    
+    <div class="bottom-cards">
+      
+      <!-- Bottom Left Card -->
+      <div class="bottom-left-card">
+        <h3 class="card-text">National Council for Vocational Education and Training (NCVET)</h3>
+      <a href="#">View Case Study →</a>
+      </div>
+
+      <!-- Bottom Right Card -->
+      <div class="bottom-right-card">
+        <h3 class="card-text">Food Industry Capacity & Skill Initiative (FICSI)</h3>
+        <a href="#">View Case Study →</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="right-section">
+    <div class="right-card">
+      <h3 class="card-text">Made For Media</h3>
+      <a href="#">View Case Study →</a>
+    </div>
+  </div>
+</div>
 
 
 <!-- Our Client -->
@@ -677,113 +716,6 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-<!-- <div class="container-fluid g-0 mt-5">
-  <div class="container source1">
-    <div class="row text-center text-drak ">
-      <div class="col-12  ser-title">
-        <h1>What We Do</h1>
-        <p class="display-5 fw-bold">Our Service</p>
-        <p class="lead text-center ">Custom Software
-          Development concept to
-          execution, we build tailored software <br>solutions that perfectly match your business requirements.
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="row g-0 mt-5 mx-0 g-none">
-    <div class="col-lg-4
-     g-0">
-      <div class="prot_thumb mx-0 g-none">
-        <div class="we-do-img">
-          <img src="assets/img/services/con.jpg" alt="" class="img-fluid ">
-          <div class="team-overlay">
-            <div class="text-center we-do-content">
-              <a class="btn btn-light btn-square mx-1" href="https://twitter.com/login"><i class="bi bi-twitter"></i></a>
-              <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-              <a class="btn btn-light btn-square mx-1" href="https://www.linkedin.com/login"><i class="bi bi-linkedin"></i></a>
-              <h2>Services</h2>
-              <p>Enhance your brand with strategic brand management, captivating graphic designs, user-friendly web solutions, and immersive sound experiences.</p>
-
-              <a href="services.php">Read more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 g-0">
-      <div class="prot_thumb">
-        <div class="we-do-img">
-          <img src="assets/img/services/consulting.jpg" alt="" class="img-fluid ">
-          <div class="team-overlay">
-            <div class="text-center we-do-content">
-              <a class="btn btn-light btn-square mx-1" href="https://twitter.com/login"><i class="bi bi-twitter"></i></a>
-              <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-              <a class="btn btn-light btn-square mx-1" href="https://www.linkedin.com/login"><i class="bi bi-linkedin"></i></a>
-              <h2>Consulting</h2>
-              <p> We provide comprehensive consulting services, including startup support, incubation setup, Centers of Excellence, and Research & Development, to foster innovation and growth.</p>
-              <a href="consult.php">Read more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 g-0">
-      <div class="prot_thumb">
-        <div class="we-do-img">
-          <img src="assets/img/services/media.jpg" alt="" class="img-fluid ">
-          <div class="team-overlay">
-            <div class="text-center we-do-content">
-              <a class="btn btn-light btn-square mx-1" href="https://twitter.com/login"><i class="bi bi-twitter"></i></a>
-              <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-              <a class="btn btn-light btn-square mx-1" href="https://www.linkedin.com/login"><i class="bi bi-linkedin"></i></a>
-              <h2 class="px-5">Media and Promotion</h2>
-              <p>Expert in brand building, consulting, promotion, digital marketing, activation, and events. Unlock your brand's potential!</p>
-              <a href="media&promotion.php">Read more</a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container mt-5 g-4">
-    <div class="row  text-center ">
-      <div class="col-lg-4 we-do-card">
-        <h3>
-          Consulting
-        </h3>
-      </div>
-      <div class="col-lg-4 we-do-card mx-2">
-        <h3>
-          Marketing
-        </h3>
-      </div>
-      <div class="col-lg-4 we-do-card">
-        <h3>
-          Performance
-        </h3>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-<!-- <div class="container">
-  <div class="row">
-    <ul class="partner4">
-      <li><img src="assets/img/clients/mesc logo.png" alt="" class="partner__logo" /></li>
-      <li> <img src="assets/img/clients/mediatalkback.png" alt="" class="partner__logo" /></li>
-      <li><img src="assets/img/clients/NSDC.png" alt="" class="partner__logo2" /></li>
-      <li><img src="assets/img/clients/indiaskillshigh.png" alt="" class="partner__logo2" /></li>
-      <li><img src="assets/img/clients/vidyadaan.png" alt="" class="partner__logo2" /></li>
-      <li><img src="assets/img/clients/MECAT-Logo .png" alt="" class="partner__logo" /></li>
-    </ul>
-  </div>
-</div> -->
 
 
 
