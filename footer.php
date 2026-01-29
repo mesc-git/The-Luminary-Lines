@@ -20,12 +20,11 @@
     <!-- Subscribe Form -->
 
     <!-- -------Logo and socal icon -->
-    <div class="row footer__lo_co">
+    <!-- <div class="row footer__lo_co">
       <div class="col-12">
         <div class="d-flex justify-content-center">
           <a href="index.php" class="d-flex align-items-center footer__logo">
-            <!-- <img src="assets/img/logo_white.svg" alt="" />
-              <h5>Digiv</h5> -->
+        
           </a>
         </div>
         <ul class="d-flex justify-content-center gap-3 footer__socal">
@@ -57,7 +56,7 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
     <!-- -------Logo and socal icon -->
     <hr class="footer__border" />
     <!-- ---- Info -->

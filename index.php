@@ -30,41 +30,7 @@
 <!-- --------------- Start Header ------------ -->
 
 <?php include('header.php'); ?>
-<!-- --------------- End Header ------------ -->
-<!-- <div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
 
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-
-      <video src="assets/img/clients/Render_4K.mp4" class="object-fit-cover" type=video/mp4 autoplay mute loop></video>
-
-    </div>
-    <div class="carousel-item">
-      <img src="assets/img/banner/banner home.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div> -->
-<!-- <div class="container-fluid header-to">
-  <video autoplay loop muted>
-    <source src="assets/img/clients/Render_4K.mp4" class="object-fit-cover" type=video/mp4 autoplay mute loop>
-  </video>
-</div> -->
 
 <video autoplay="autoplay" loop muted playsinline class=" d-lg-block d-none head-video">
   <source src="assets/img/banner/Luminary-LInes-vid.mp4" class="object-fit-cover" type=video/mp4 autoplay mute loop>
@@ -73,122 +39,8 @@
   <source src="assets/img/banner/phone  luminary.mp4" class="object-fit-cover" type=video/mp4 autoplay mute loop>
 </video>
 
-<!-- --------------- Start Banner ----------- -->
-<!-- <div class="container-fluid top-banner" style="background-image: url(assets/img/banner/hm02.png);  width:100%; object-fit:cover; height: 600px;"> -->
-<!-- <div class="container-fluid "> -->
-<!-- <div class="row"> -->
-<!-- <div class="col-lg-8 ms-lg-5 ms-sm-0">
-      <div class="banner__content_title-home" style="margin-top: 60px;">
-        <h1 data-aos="fade-up text-dark mt-5" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
-          Design.Consult.<br>
-          Advertise. </h1>
-        <p data-aos="fade-up" data-aos-delay="200" data-aos-offset="0" data-aos-duration="1000">
-          High-quality, relevant content is essential for engaging <br>
-          & retaining online audiences.
-        </p>
-      </div> -->
-<!-- <div class="buttons d-sm-flex align-items-center" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0" data-aos-duration="1000"> -->
-<!-- <button class="common__btn buttons_file" href="contact.php" style="background-color: #000; border-style: none;"> -->
-<!-- <a href="contact.php" class="common__btn buttons_file" style="background-color: #000; border-style: none;"><span> Get A Quote</span>
-          <img src="assets/icons/arrow-up-right.svg" alt="" />
-        </a>
-        </button> -->
-<!-- <button class="common__btn buttons_outline mt-4 mt-sm-0">
-            <span>More About Us</span>
-            <img src="assets/icons/arrow-up-right-yellow.svg" alt="" />
-          </button> -->
-<!-- </div>
-    </div>
-  </div>
-</div> -->
-<!-- <section class="banner overflow-hidden">
-    <div class="container position-relative">
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="banner__content">
-            <div class="banner__content_title">
-              <h1 data-aos="fade-up text-dark" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
-                Design.Consult.
-                Advertise. </h1>
-              <p data-aos="fade-up" data-aos-delay="200" data-aos-offset="0" data-aos-duration="1000">
-                High-quality, relevant content is essential for engaging &
-                retaining online audiences.
-              </p>
-            </div>
-            <div class="buttons d-sm-flex align-items-center" data-aos="fade-up" data-aos-delay="300"
-              data-aos-offset="0" data-aos-duration="1000">
-              <button class="common__btn buttons_file">
-                <span> Get A Quote</span>
-                <img src="assets/icons/arrow-up-right.svg" alt="" />
-              </button>
-              <button class="common__btn buttons_outline mt-4 mt-sm-0">
-                <span>More About Us</span>
-                <img src="assets/icons/arrow-up-right-yellow.svg" alt="" />
-              </button>
-            </div>
-            <div class="banner__content_number d-flex justify-content-between" data-aos="fade-up" data-aos-delay="400"
-              data-aos-offset="0" data-aos-duration="1000">
-              <div>
-                <h4>45+</h4>
-                <p>Years Experience</p>
-              </div>
-              <div>
-                <h4>99%</h4>
-                <p>Satisfaction Rate</p>
-              </div>
-              <div>
-                <h4>393k</h4>
-                <p>Our Global Clients</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="banner__right">
-            <img src="assets/img/banner/Shape.svg" alt="" class="bg__shap" />
-            <img src="assets/img/banner/Video.svg" alt="" class="bg__video" />
-            <div class="baner">
-              <img src="assets/img/banner/b1.jpg" alt="" class="bg__img" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="position-absolute top-0 h-100 w-100">
-        <div class="position-relative w-100 h-100">
-        <div class="banner__shap_1 banner__shap"></div>
-        <div class="banner__shap_2 banner__shap"></div>
-        <div class="banner__shap_3 banner__shap"></div>
-        <div class="banner__shap_4 banner__shap"></div>
-      </div>
-      </div>
-    </div>
-  </section> -->
-<!-- --------------- End Banner ----------- -->
-<!-- <div class="container-fluid about ">
-  <div class="row">
-    <div class="col-lg-4 ab-col1 g-0 bg-light">
-      <h1 class="fw-bold text-dark">About<br> Us</h1>
-    </div>
-    <div class="col-lg-4 ab-col2 g-0">
-      <h2>The Luminary lines</h2>
-      <hr style="height:5px; visibility:100%; background:#032539; width:50%; border-radius:10px; padding-left: 20px;" class="ms-3">
-      <p class="me-3"><strong>LUMINARY LINES: AN INITIATIVE OF MEDIA AND ENTERTAINMENT SKILLS COUNCIL</strong></p>
-      <p class="me-3">
-        It is an esteemed advertising, consulting, and design firm. Our purpose is to elevate brands
-        and boost their success through innovative solutions.
-      </p>
 
-     
-      <a href="who-we-are.php" class="ab-btn"><span class="mt-5">Read more</span></a>
-    </div>
-    <div class="col-lg-4 g-0 ab-col3">
-      <img src="assets/img/about/abim.jpg" alt="" class="projects__usecase_img" />
-    </div>
-  </div>
-</div> -->
-
-
-<div class="container-fluid about-section">
+<!-- <div class="container-fluid about-section">
   <div class="row">
     <div class="col-lg-6 ab-h ">
       <h3><span class="fw-bold">Ready to shine?</span><br>Let's Illuminate Your Brand's Success</h3>
@@ -201,463 +53,76 @@
       
       <p>Our expert team crafts impactful campaigns, provides strategic consulting insights, and delivers stunning designs that elevate your brand. From brand management and graphic design to web development, sound design, and on-ground activations, we offer comprehensive solutions tailored to your success.
 <p>Backed by MESC's legacy since 2012 under the Ministry of Skill Development & Entrepreneurship, we bring industry expertise, creative excellence, and strategic vision to every project.</p>
-
       </p>
-      <!-- <h4>info@theluminarylines.com</h4> -->
-    </div>
-  </div>
-</div>
-<!-- --------------- Start About ----------- -->
-<!-- <section class="about py__40 " id="about">
-  <div class="container">
-    <div class="row justify-content-between about__title" data-aos="fade-down" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
-      <div class="col-lg-10">
-        <div class="intro"> -->
-<!-- <h1 class="title">
-              Welcome to<br>
-              <span class="mt-5">Luminary Lines!</span>
-            </h1> -->
-<!-- <p class="mt-5">
-              Your all-in-one destination for advertising, consulting, and designing excellence.
-              We are a dynamic agency dedicated to crafting impactful campaigns, providing strategic consulting
-              insights, and delivering stunning designs that elevate your brand.
-            </p>
-            <p class="mt-5">
-              At Luminary Lines, we merge creativity with strategy to illuminate your brand's journey, ensuring it
-              stands out in the ever-evolving landscape.
-            </p> -->
-<!-- </div>
-      </div>
-      <div class="col-lg-2">
-        <div class="about__title_shap position-relative">
-          <img src="assets/img/banner/Shape.svg" alt="" class="w-100" />
-        </div>
-      </div>
-    </div> -->
-<!-- <div class="row justify-content-between align-items-center about__wapper">
-      <div class="col-xl-6 col-lg-6">
-        <div class="about__wapper_left" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
-          <h1 class="title">
-            Welcome to<br>
-            <span class="mt-5">Luminary Lines!</span>
-          </h1>
-          <p class="mt-4">
-            Your all-in-one destination for advertising, consulting, and designing excellence.
-            We are a dynamic agency dedicated to crafting impactful campaigns, providing strategic consulting
-            insights, and delivering stunning designs that elevate your brand.
-          </p>
-
-        </div>
-        <div class="row">
-          <div class="col-lg-12 about__wapper_right mt-5" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0" data-aos-duration="1000">
-            <ul>
-              <li>
-                <img src="assets/icons/checkmark.svg" alt="" />
-                <span>We Grow Businesses</span>
-              </li>
-              <li>
-                <img src="assets/icons/checkmark.svg" alt="" />
-                <span>We’re skilled developers</span>
-              </li>
-              <li>
-                <img src="assets/icons/checkmark.svg" alt="" />
-                <span>Perfect & modern solution</span>
-              </li>
-              <li>
-                <img src="assets/icons/checkmark.svg" alt="" />
-                <span>Quality marketing</span>
-              </li>
-            </ul>
-
-            <a href="contact.php" class="common__btn buttons_file mt-5" style="background-color: #000; border-style: none;"><span> Get A Quote</span>
-              <img src="assets/icons/arrow-up-right.svg" alt="" />
-            </a>
-
-          </div>
-
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-6 abe" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0" data-aos-duration="1000">
-        <div class=" about__wapper_center" style="z-index: -25px;">
-          <img src="assets/img/about/ab3.jpg" alt="" />
-        </div>
-      </div>
-
-      this is comment
-      <div class="col-xl-3 col-lg-6 mt-5 mt-xl-0">
-          <ul class="about__wapper_right" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0"
-            data-aos-duration="1000">
-            <li>
-              <img src="assets/icons/checkmark.svg" alt="" />
-              <span>We Grow Businesses</span>
-            </li>
-            <li>
-              <img src="assets/icons/checkmark.svg" alt="" />
-              <span>We’re skilled developers</span>
-            </li>
-            <li>
-              <img src="assets/icons/checkmark.svg" alt="" />
-              <span>Perfect & modern solution</span>
-            </li>
-            <li>
-              <img src="assets/icons/checkmark.svg" alt="" />
-              <span>Quality marketing</span>
-            </li>
-          </ul>
-        </div>
-    </div> -->
-<!-- ------ partner start -->
-
-<!-- ------ partner End -->
-<!-- <div class="projects__usecase mt-5 mb-5" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
-      <div class="row align-items-center">
-        <div class="col-lg-6 mt-5 mt-lg-0">
-          <div>
-            <img src="assets/img/projects/about.jpg" alt="" class="projects__usecase_img" />
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="projects__usecase_content">
-            <h1 class="">
-              About Us
-            </h1>
-            <p class="pt__20 text-dark">
-              Luminary Lines is an esteemed advertising, consulting, and design firm. Our purpose is to elevate brands
-              and boost their success through innovative solutions.
-            </p>
-            <p class="para2 text-dark">
-              Your all-in-one destination for advertising, consulting, and designing excellence.
-              We are a dynamic agency dedicated to crafting impactful campaigns, providing strategic consulting
-              insights, and delivering stunning designs that elevate your brand.
-            </p>
-            <button class="common__btn" style="border-style: none;"><a href="who-we-are.php">
-                <span>Know More</span>
-                <img src="assets/icons/arrow-up-rignt-black.svg" alt="" />
-              </a>
-            </button>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-</section> -->
-<!-- --------------- End About ----------- -->
-<!-- new services start -->
-<!-- <section id="new-services" class="pt-8 pb-10 " style="background-color:#417972;">
-    <div class="container-fluid">
-      <div class="container">
-        <div class="row text-center ser">
-          <h1 class="mt-4">
-            Our Services
-          </h1>
-        </div>
-        <div class="row">
-          <div class="col-lg-4  col-md-6 mt-4 ">
-            <div class="ser-col text-center">
-              <img src="assets/img/services/s1.jpg" alt="">
-              <h2>Digital Marketing</h2>
-              <ul>
-                <li>Search Engine Optimization (SEO)</li>
-                <li>
-                  Search Engine Marketing (SEM)
-                </li>
-                <li>
-                  Social Media Marketing (SMM)
-                </li>
-                <li>Email Marketing</li>
-                <li>Pay-Per-Click (PPC) Advertising</li>
-              </ul>
-              <button class="btn" type="button">Read More</button>
-            </div>
-          </div>
-          <div class="col-lg-4  col-md-6 mt-4 ">
-            <div class="ser-col text-center">
-              <img src="assets/img/services/s2.jpg" alt="">
-              <h2>Content Creation</h2>
-              <ul>
-                <li>Engaging Copywriting</li>
-                <li>
-                  Compelling Video Production
-                </li>
-                <li>
-                  Stunning Photography
-                </li>
-                <li>Blog and Article Writing</li>
-                <li>Social Media Content Creation</li>
-              </ul>
-              <button class="btn" type="button">Read More</button>
-            </div>
-          </div>
-          <div class="col-lg-4  col-md-6 mt-4 ">
-            <div class="ser-col text-center">
-              <img src="assets/img/services/s3.jpg" alt="">
-              <h2>Graphic Designing</h2>
-              <ul>
-                <li>Logo Design and Branding</li>
-                <li>
-                  Brochure and Flyer Design
-                </li>
-                <li>
-                  Poster and Banner Design
-                </li>
-                <li>Infographics</li>
-                <li>Packaging Design</li>
-              </ul>
-              <button class="btn" type="button">Read More</button>
-            </div>
-          </div>
-        </div>
-        <a href="ourservices.html" class="common__btn2 mt-4 mt-lg-0">
-          <span>View All Services</span>
-          <img src="assets/icons/arrow-up-rignt-black.svg" alt="" />
-        </a>
-      </div>
-    </div>
-  </section> -->
-<!-- new services end -->
-
-
-
-<!-- <div class="container-fluid get">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-6 mt-5 get-head">
-        <h2 class=" mt-4 text-light">
-          To set yourself up for success, <br>
-          <span>
-            Get in contact.
-
-          </span>
-      </div>
-      <div class="col-lg-4 col-md-6 get-btn ">
-        <a href="#getintouch">
-          <span>Book a meeting</span>
-        </a>
-      </div>
     </div>
   </div>
 </div> -->
-<section id="recent-blog-posts" class="what-we-do1">
-  <div class="container" data-aos="fade-up">
-    <div class=" section-header">
-      <h2 class="text-center text-dark">What Can We Do Together?</h2>
-      <!-- <p>In this blog post, we will explore the top five construction trends that are revolutionizing the way projects
-        are planned, designed, and executed</p> -->
-    </div>
 
-    <div class="row gy-5">
-
-      <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-        <div class="post-item position-relative h-100">
-
-          <div class="post-img position-relative overflow-hidden">
-            <img src="assets/img/services/servicess.jpg" class="img-fluid" alt="">
-            <!-- <span class="post-date">December 12</span> -->
-          </div>
-
-          <div class="post-content d-flex flex-column">
-            <a href="solution.php">
-              <h3 class="post-title mb-3">Branding & Promotions</h3>
-            </a>
-            <div class="meta d-flex align-items-center">
-              <p>Strategic brand positioning and integrated marketing for sector skill councils, universities, and brands. We enhance visibility, drive engagement, and build lasting recognition.</p>
-              <!-- <div class="d-flex align-items-center">
-                <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
-              </div>
-              <span class="px-3 text-black-50">/</span>
-              <div class="d-flex align-items-center">
-                <i class="bi bi-folder2"></i> <span class="ps-2">Politics</span>
-              </div> -->
-            </div>
-
-            <hr>
-
-            <a href="solution.php" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-          </div>
-
-        </div>
-      </div><!-- End post item -->
-
-      <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-        <div class="post-item position-relative h-100">
-
-          <div class="post-img position-relative overflow-hidden">
-            <img src="assets/img/consulting/consult.jpg" class="img-fluid" alt="">
-            <!-- <span class="post-date">July 17</span> -->
-          </div>
-
-          <div class="post-content d-flex flex-column">
-            <a href="consult.php">
-              <h3 class="post-title mb-3">Consulting & Advocacy </h3>
-            </a>
-            <div class="meta d-flex align-items-center">
-              <p>Expert guidance for skill councils, institutions, and organizations. We deliver strategic frameworks, program development, accreditation support, and policy advocacy for sustainable growth.</p>
-              <!-- <div class="d-flex align-items-center">
-                <i class="bi bi-person"></i> <span class="ps-2">Mario Douglas</span>
-              </div>
-              <span class="px-3 text-black-50">/</span>
-              <div class="d-flex align-items-center">
-                <i class="bi bi-folder2"></i> <span class="ps-2">Sports</span>
-              </div> -->
-            </div>
-
-            <hr>
-
-            <a href="consult.php" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-          </div>
-
-        </div>
-      </div><!-- End post item -->
-
-      <div class="col-xl-4 col-md-6">
-        <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
-
-          <div class="post-img position-relative overflow-hidden">
-            <img src="assets/img/media/media.jpg" class="img-fluid" alt="">
-            <!-- <span class="post-date">September 05</span> -->
-          </div>
-
-          <div class="post-content d-flex flex-column">
-            <a href="media&promotion.php">
-              <h3 class="post-title mb-3">Audio & Video(A&V) Production</h3>
-            </a>
-            <div class="meta d-flex align-items-center">
-              <p>Professional audiovisual content for institutions and brands, training modules, promotional videos, corporate films, and awareness campaigns that communicate effectively and engage stakeholders.</p>
-              <!-- <div class="d-flex align-items-center">
-                <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
-              </div>
-              <span class="px-3 text-black-50">/</span>
-              <div class="d-flex align-items-center">
-                <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
-              </div> -->
-            </div>
-
-            <hr>
-
-            <a href="media&promotion.php" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-
-          </div>
-
-        </div>
-      </div>
-      <!-- End post item -->
-
-      <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-  <div class="post-item position-relative h-100">
-
-    <div class="post-img position-relative overflow-hidden">
-      <img src="assets/img/services/PR&Communication.png" class="img-fluid" alt="">
-    </div>
-
-    <div class="post-content d-flex flex-column">
-      <a href="digital-marketing.php">
-        <h3 class="post-title mb-3">PR & Communication</h3>
-      </a>
-
-      <div class="meta d-flex align-items-center">
-        <p>
-          Strategic reputation management and communications for skill councils, institutions, and brands. Media relations, thought leadership, stakeholder engagement, and crisis management services.
-        </p>
-      </div>
-
-      <hr>
-
-      <a href="digital-marketing.php" class="readmore stretched-link">
-        <span>Read More</span><i class="bi bi-arrow-right"></i>
-      </a>
-    </div>
-
+<!-- New Ready To Shine Section Start -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Ready to Shine?</h1>
+    <p>Let’s illuminate your brand’s<br>success</p>
+    <a href="#" class="cta-btn">Begin Your Transformation Today ↗</a>
   </div>
-</div>
 
-
-
-<!-- End of post Item -->
-
-<div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-  <div class="post-item position-relative h-100">
-
-    <div class="post-img position-relative overflow-hidden">
-      <img src="assets/img/services/event-campaign-management.png" class="img-fluid" alt="">
-    </div>
-
-    <div class="post-content d-flex flex-column">
-      <a href="events.php">
-        <h3 class="post-title mb-3">Event Management</h3>
-      </a>
-
-      <div class="meta d-flex align-items-center">
-        <p>
-          End-to-end execution of conferences, workshops, skill competitions, convocations, and launches for skill councils, universities, and brands. Seamless, impactful experiences delivered.
-        </p>
-      </div>
-
-      <hr>
-
-      <a href="events.php" class="readmore stretched-link">
-        <span>Read More</span><i class="bi bi-arrow-right"></i>
-      </a>
-    </div>
-
-  </div>
-</div>
-    </div>
+  <div class="hero-image">
+    <img src="assets/img/homepageImages/ready-to-shine-puzzle.jpg" alt="Puzzle Image">
   </div>
 </section>
 
- <!-- Case Studies Section  -->
+<!-- End Read To Shine Section -->
 
-<div class="case-studies">
+<!-- What We Can Do Together Section  -->
+
+<section class="who-we-are">
+  <div class="image-row">
+    <div class="image-card">
+      <img src="assets/img/homepageImages/target.jpg" alt="Target">
+    </div>
+
+    <div class="image-card center-card">
+      <img src="assets/img/homepageImages/focus.jpg" alt="Focus">
+    </div>
+
+    <div class="image-card">
+      <img src="assets/img/homepageImages/marketing.jpg" alt="Marketing">
+    </div>
+  </div>
+
+  <div class="whoWeAre_content">
+  <h2>Who We Are</h2>
+
+  <p>
+    In the realm of Media & Entertainment, <strong>Luminary Lines</strong>, an initiative by MESC
+    illuminates pathways to innovative solutions and exceptional excellence.
+  </p>
+<br>
+  <p>
+    Our expert team crafts impactful campaigns, provides strategic consulting insights,
+    and delivers stunning designs that elevate your brand. From brand management and
+    graphic design to web development, sound design, and on-ground activations, we offer
+    comprehensive solutions tailored to your success.
+  </p>
+<br>
+  <p>
+    Backed by MESC's legacy since 2012 under the Ministry of Skill Development &
+    Entrepreneurship, we bring industry expertise, creative excellence, and strategic
+    vision to every project.
+  </p>
+  </div>
+
   
-  <!-- LEFT SIDE -->
-  <div class="left-section">
+</section>
 
- 
-    
-    <!-- Top Card -->
-    <div class="top-card">
-       <h3 class="card-text">National Skill Development Corporation (NSDC)</h3>
-        <a href="#">View Case Study →</a>
-    </div>
+ <!-- What We Can Do Together Section End -->
 
-    
-    <div class="bottom-cards">
-      
-      <!-- Bottom Left Card -->
-      <div class="bottom-left-card">
-        <h3 class="card-text">National Council for Vocational Education and Training (NCVET)</h3>
-      <a href="#">View Case Study →</a>
-      </div>
-
-      <!-- Bottom Right Card -->
-      <div class="bottom-right-card">
-        <h3 class="card-text">Food Industry Capacity & Skill Initiative (FICSI)</h3>
-        <a href="#">View Case Study →</a>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- RIGHT SIDE -->
-  <div class="right-section">
-    <div class="right-card">
-      <h3 class="card-text">Made For Media</h3>
-      <a href="#">View Case Study →</a>
-    </div>
-  </div>
-</div>
-
-
-<!-- Our Client -->
+ <!-- Our Client Section Start -->
 
 <div class="container-fluid" style="background-color: #032539;">
   <div class="pt-5">
     <!-- <h1 class="client-heading text-center text-light">Our Clients</h1> -->
-    <h2 class="text-center">Some of Our Prestigious Clients</h2>
+    <h2 class="text-center fs-1">Some of Our Prestigious Clients</h2>
   </div>
 
   <div class="py-2">
@@ -711,11 +176,311 @@
             <img src="assets/img/clients/MECAT-Logo.png" alt="MECAT">
           </div>
         </div>
-
       </div>
     </div>
   </div>
 </div>
+
+ <!-- Our Client Section End -->
+
+<!-- <section id="recent-blog-posts" class="what-we-do1">
+  <div class="container" data-aos="fade-up">
+    <div class=" section-header">
+      <h2 class="text-center text-dark">What Can We Do Together?</h2>
+      
+    </div> -->
+
+    <!-- <div class="row gy-5"> -->
+
+      <!-- <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="post-item position-relative h-100">
+
+          <div class="post-img position-relative overflow-hidden">
+            <img src="assets/img/services/servicess.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="post-content d-flex flex-column">
+            <a href="solution.php">
+              <h3 class="post-title mb-3">Branding & Promotions</h3>
+            </a>
+            <div class="meta d-flex align-items-center">
+              <p>Strategic brand positioning and integrated marketing for sector skill councils, universities, and brands. We enhance visibility, drive engagement, and build lasting recognition.</p>
+            </div>
+
+            <hr>
+
+            <a href="solution.php" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+          </div>
+
+        </div>
+      </div> -->
+
+      <!-- <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="post-item position-relative h-100">
+
+          <div class="post-img position-relative overflow-hidden">
+            <img src="assets/img/consulting/consult.jpg" class="img-fluid" alt="">
+          
+          </div>
+
+          <div class="post-content d-flex flex-column">
+            <a href="consult.php">
+              <h3 class="post-title mb-3">Consulting & Advocacy </h3>
+            </a>
+            <div class="meta d-flex align-items-center">
+              <p>Expert guidance for skill councils, institutions, and organizations. We deliver strategic frameworks, program development, accreditation support, and policy advocacy for sustainable growth.</p>
+            </div>
+
+            <hr>
+
+            <a href="consult.php" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+          </div>
+
+        </div>
+      </div> -->
+
+      <!-- <div class="col-xl-4 col-md-6">
+        <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="post-img position-relative overflow-hidden">
+            <img src="assets/img/media/media.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="post-content d-flex flex-column">
+            <a href="media&promotion.php">
+              <h3 class="post-title mb-3">Audio & Video(A&V) Production</h3>
+            </a>
+            <div class="meta d-flex align-items-center">
+              <p>Professional audiovisual content for institutions and brands, training modules, promotional videos, corporate films, and awareness campaigns that communicate effectively and engage stakeholders.</p>
+            </div>
+
+            <hr>
+
+            <a href="media&promotion.php" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+
+          </div>
+
+        </div>
+      </div> -->
+    
+
+      <!-- <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+  <div class="post-item position-relative h-100">
+
+    <div class="post-img position-relative overflow-hidden">
+      <img src="assets/img/services/PR&Communication.png" class="img-fluid" alt="">
+    </div>
+
+    <div class="post-content d-flex flex-column">
+      <a href="digital-marketing.php">
+        <h3 class="post-title mb-3">PR & Communication</h3>
+      </a>
+
+      <div class="meta d-flex align-items-center">
+        <p>
+          Strategic reputation management and communications for skill councils, institutions, and brands. Media relations, thought leadership, stakeholder engagement, and crisis management services.
+        </p>
+      </div>
+
+      <hr>
+
+      <a href="digital-marketing.php" class="readmore stretched-link">
+        <span>Read More</span><i class="bi bi-arrow-right"></i>
+      </a>
+    </div>
+
+  </div>
+</div> -->
+
+
+
+<!-- End of post Item -->
+
+<!-- <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+  <div class="post-item position-relative h-100">
+
+    <div class="post-img position-relative overflow-hidden">
+      <img src="assets/img/services/event-campaign-management.png" class="img-fluid" alt="">
+    </div>
+
+    <div class="post-content d-flex flex-column">
+      <a href="events.php">
+        <h3 class="post-title mb-3">Event Management</h3>
+      </a>
+
+      <div class="meta d-flex align-items-center">
+        <p>
+          End-to-end execution of conferences, workshops, skill competitions, convocations, and launches for skill councils, universities, and brands. Seamless, impactful experiences delivered.
+        </p>
+      </div>
+
+      <hr>
+
+      <a href="events.php" class="readmore stretched-link">
+        <span>Read More</span><i class="bi bi-arrow-right"></i>
+      </a>
+    </div>
+
+  </div>
+</div>
+    </div>
+  </div>
+</section> -->
+
+<!-- what can we do together -->
+
+<section class="what-we-do-section">
+
+  <div class="what-we-can-do">
+    <h1>What Can We Do Together?</h1>
+  </div>
+
+ <div class="cards-wrapper">
+  <div class="cards-track">
+
+    <div class="outer-card branding_promotion">
+      <div class="inner-card">
+        <h3>Branding & Promotions</h3>
+        <p>Strategic brand positioning and integrated marketing for sector skill councils, universities, and brands. We enhance visibility, drive engagement, and build lasting recognition.</p>
+        <a href="#">View →</a>
+      </div>
+    </div>
+
+    <div class="outer-card consult_advocacy">
+      <div class="inner-card">
+        <h3>Consulting & Advocacy </h3>
+        <p>Expert guidance for skill councils, institutions, and organizations. We deliver strategic frameworks, program development, accreditation support, and policy advocacy for sustainable growth.</p>
+        <a href="#">View →</a>
+      </div>
+    </div>
+
+    <div class="outer-card audio_video_prod">
+      <div class="inner-card">
+        <h3>Audio & Video(A&V) Production</h3>
+        <p>Professional audiovisual content for institutions and brands, training modules, promotional videos, corporate films, and awareness campaigns that communicate effectively and engage stakeholders.</p>
+        <a href="#">View →</a>
+      </div>
+    </div>
+
+    <div class="outer-card pr_communication">
+      <div class="inner-card">
+        <h3>PR & Communication</h3>
+        <p>Strategic reputation management and communications for skill councils, institutions, and brands. Media relations, thought leadership, stakeholder engagement, and crisis management services.</p>
+        <a href="#">View →</a>
+      </div>
+    </div>
+
+    <div class="outer-card event_management">
+      <div class="inner-card">
+        <h3>Event Management</h3>
+        <p>End-to-end execution of conferences, workshops, skill competitions, convocations, and launches for skill councils, universities, and brands. Seamless, impactful experiences delivered.</p>
+        <a href="#">View →</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <!-- Pagination -->
+  <div class="pagination">
+    <button class="nav-btn prev">&lt;</button>
+
+    <div class="dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <button class="nav-btn next">&gt;</button>
+  </div>
+
+</section>
+
+
+
+ <!-- Case Studies Section  -->
+
+   <div class="case-studies-heading">
+    <h2 class="text-center text-dark fw-#400">Explore Our Case Studies</h2>
+  </div>
+
+<div class="case-studies">
+  
+  <!-- LEFT SIDE -->
+  <div class="left-section">
+
+    <!-- Top Card -->
+    <div class="top-card">
+       <h3 class="card-text">National Skill Development Corporation (NSDC)</h3>
+        <a href="#">View Case Study →</a>
+    </div>
+
+    
+    <div class="bottom-cards">
+      
+      <!-- Bottom Left Card -->
+      <div class="bottom-left-card">
+        <h3 class="card-text">National Council for Vocational Education and Training (NCVET)</h3>
+      <a href="#">View Case Study →</a>
+      </div>
+
+      <!-- Bottom Right Card -->
+      <div class="bottom-right-card">
+        <h3 class="card-text">Food Industry Capacity & Skill Initiative (FICSI)</h3>
+        <a href="#">View Case Study →</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="right-section">
+    <div class="right-card">
+      <h3 class="card-text">Made For Media</h3>
+      <a href="#">View Case Study →</a>
+    </div>
+  </div>
+</div>
+
+<!-- PopUp Section Start -->
+ <!-- <div class="popup-overlay" id="ncvet-popup">
+  <div class="popup-box">
+    <button class="close-btn">&times;</button>
+
+    <img src="assets/img/services/event-campaign-management.png"  alt="NCVET">
+
+    <div class="popup-content">
+      <h2>Launching India's Digital Skilling Vision at a National Stage</h2>
+
+      <p><strong>Client:</strong> National Council for Vocational Education and Training (NCVET)</p>
+      <p><strong>Launch Platform:</strong> Bharat SkillNXT 2025</p>
+      <p><strong>Launched by:</strong> Hon'ble Shri Jayant Chaudhary</p>
+      <p><strong>Editing & Post-Production:</strong> Luminary Lines</p>
+
+      <p>
+       The National Council for Vocational Education and Training (NCVET) conceptualized Kaushalverse, a futuristic digital platform designed to strengthen India's skilling and vocational education framework. With its official unveiling scheduled at Bharat SkillNXT 2025, one of India's premier skilling events, NCVET needed a powerful introductory video that could communicate this complex vision clearly and compellingly to policymakers, industry leaders, and stakeholders nationwide.
+The video would be formally launched by Hon'ble Minister Shri Jayant Chaudhary, making it a high-visibility, high-stakes communication asset requiring institutional precision, national relevance, and visual impact. The challenge: deliver a polished, future-ready narrative under tight timelines while ensuring the platform's digital complexity was accessible to a diverse audience.
+
+      </p>
+
+      <h3>Strategic Approach for Success</h3>
+
+      <p>
+      Luminary Lines handled the project end-to-end, managing the complete post-production workflow from creative structuring to final mastering. Our team focused on crafting a clean, structured storytelling approach that simplified the platform's purpose without diluting its technological sophistication.
+We employed balanced visual pacing, seamless transitions, and motion design to reflect the future-ready nature of Kaushalverse, while maintaining the formal tone required for a ministerial launch. Through multiple review iterations with NCVET stakeholders, we ensured every frame aligned with institutional branding, accuracy, and the broader narrative of India's digital skilling transformation. The final product was mastered for large-screen event playback, ensuring maximum impact at the national forum.
+
+      </p>
+
+      <h3>Outcomes</h3>
+
+      <p>
+       The Kaushalverse introductory video was successfully launched at Bharat SkillNXT 2025 and received strong visibility across India's skilling ecosystem. It effectively communicated NCVET's vision to policymakers, industry leaders, and stakeholders, establishing the platform's identity at launch and supporting the organization's broader narrative around digital skilling and innovation. The video became a key communication asset for introducing Kaushalverse at national forums and continues to serve as a foundational piece in NCVET's digital skilling advocacy.
+      </p>
+    </div>
+  </div>
+</div> -->
 
 
 
@@ -1015,363 +780,6 @@
 </section>
 
 
-
-  <!-- <div class="divider">
-      <span></span>
-      <i>✦</i>
-      <span></span>
-    </div>
-</section> -->
-
-
-<!-- <div class="conatiner-fluid">
-  <div class="container">
-    <div class="row ">
-      <div class="col-lg-2 col-sm-6  part"><img src="assets/img/clients/mesc logo.png" alt="" class="partner__logo" /></div>
-      <div class="col-lg-2 col-sm-6  part "> <img src="assets/img/clients/mediatalkback.png" alt="" class="partner__logo" /></div>
-      <div class="col-lg-2 col-sm-6  part"> <img src="assets/img/clients/vidyadaan.png" alt="" class="partner__logo" /></div>
-      <div class="col-lg-2 col-sm-6  part"> <img src="assets/img/clients/indiaskillshigh.png" alt="" class="partner__logo" /></div>
-      <div class="col-lg-2 col-sm-6  part"><img src="assets/img/clients/NSDC.png" alt="" class="partner__logo" /></div>
-      <div class="col-lg-2 col-sm-6  parts"> <img src="assets/img/clients/MECAT Logo.png" alt="" class="partner__logo" /></div>
-    </div>
-  </div>
-</div>
-<div class="conatiner-fluid mt-5">
-  <div class="container">
-    <div class="row clients-row">
-      <ul class="clients">
-        <li>
-          <img src="assets/img/clients/mesc logo.png" alt="" class="partner__logo" />
-        </li>
-        <li>
-          <img src="assets/img/clients/mediatalkback.png" alt="" class="partner__logo" />
-        </li>
-        <li>
-          <img src="assets/img/clients/vidyadaan.png" alt="" class="partner__logo" />
-
-        </li>
-        <li>
-          <img src="assets/img/clients/indiaskilllogo.png" alt="" class="partner__logo" />
-        </li>
-        <li>
-          <img src="assets/img/clients/NSDC.png" alt="" class="partner__logo" />
-        </li>
-        <li>
-          <img src="assets/img/clients/MECAT Logo.png" alt="" class="partner__logo" />
-        </li>
-      </ul>
-    </div>
-  </div>
-</div> -->
-
-
-
-
-<!-- --------------- project  start ----------- -->
-<!-- <section class="all__project" style="padding-top: 200px;">
-  <div class="container">
-    title Start
-    <div class=" text-center mb-4">
-      <h1 class="title text-center">Why Luminary Lines ?</h1>
-      <p class="text-center text-dark mt-5">Discover Luminary Lines, your gateway to unparalleled expertise,
-        innovative
-        solutions, and unwavering commitment to your brand's success. With our industry-leading services, tailored
-        strategies, and results-driven approach, we stand ready to be your trusted partner in achieving your business
-        objectives. Choose Luminary Lines and embark on a journey of transformation and growth in today's
-        competitive landscape.</p>
-    </div>
-    title End
-    <div class="row mt-5">
-      <div class="col-xl-4 col-md-6 mb-5 mb-xl-0" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
-        <div class="projects__2_card">
-          <a href="#">
-            <img src="assets/img/about/ac1.jpg" alt="" class="w-100" />
-          </a>
-          <div>
-
-            <h4 class="text-dark text-center">Industry-leading expertise ensures
-              proficient
-              project handling.
-            </h4>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-md-6 mb-5 mb-xl-0" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0" data-aos-duration="1000">
-        <div class="projects__2_card">
-          <a href="#">
-            <img src="assets/img/about/ac2.jpg" alt="" class="w-100" />
-          </a>
-          <div>
-            <h4 class="text-dark text-center ">Dedicated commitment to exceeding your
-              expectations.
-            </h4>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-md-6 mb-5 mb-xl-0" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0" data-aos-duration="1000">
-        <div class="projects__2_card">
-          <a href="#">
-            <img src="assets/img/about/ac3.jpg" alt="" class="w-100" />
-          </a>
-          <div>
-            <h4 class="text-dark text-center">Trusted partnership backed by
-              client satisfaction.</h4>
-
-          </div>
-        </div>
-      </div> -->
-<!-- <div class="col-xl-4 col-md-6 mb-5 mb-xl-0" data-aos="fade-up" data-aos-delay="400" data-aos-offset="0"
-          data-aos-duration="1000">
-          <div class="projects__2_card">
-            <a href="project_details.html">
-              <img src="assets/img/blogs/w4.jpg" alt="" class="w-100" />
-            </a>
-            <div>
-              <h4 class="text-dark text-center">Creative brilliance that sets your brand apart.</h4>
-
-            </div>
-          </div>
-        </div> -->
-<!-- <div class="col-xl-4 col-md-6 mb-5 mb-xl-0" data-aos="fade-up" data-aos-delay="500" data-aos-offset="0"
-          data-aos-duration="1000">
-          <div class="projects__2_card">
-            <a href="project_details.html">
-              <img src="assets/img/projects/5.png" alt="" class="w-100" />
-            </a>
-            <div>
-              <a href="project_details.html" class="t__28">Paid Media Solution</a>
-              <p class="d-flex align-items-center gap-2">
-                <span>Marketing </span>
-                <span>/ </span>
-                <span>Solution</span>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-6 mb-5 mb-xl-0" data-aos="fade-up" data-aos-delay="600" data-aos-offset="0"
-          data-aos-duration="1000">
-          <div class="projects__2_card">
-            <a href="project_details.html">
-              <img src="assets/img/projects/7.png" alt="" class="w-100" />
-            </a>
-            <div>
-              <a href="project_details.html" class="t__28">Paid Media Solution</a>
-              <p class="d-flex align-items-center gap-2">
-                <span>Marketing </span>
-                <span>/ </span>
-                <span>Solution</span>
-              </p>
-            </div>
-          </div>
-        </div> -->
-<!-- </div>
-
-  </div>
-</section> -->
-<!-- --------------- project  end ----------- -->
-<!-- --------------- pricing start ----------- -->
-<!-- <section class="pricing  ">
-  <div class="container">
-    <div class="testimonial__title" data-aos="fade-down" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
-      <h1 class="title text-center">
-        Take a look the perfect pricing plan to get started
-      </h1>
-    </div> -->
-<!-- title End -->
-<!-- <div class="row pt__50">
-
-      <div class="col-xl-3 col-md-6 mb-4 mb-xl-0" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
-        <div class="pricing__card">
-          <div class="text-center pricing__card_title">
-            <h6>Basic plan</h6>
-            <h1 class="t__54"> ₹ 20,000 </h1>
-            <p>Per year</p>
-          </div>
-          <span class="border__full"></span>
-          <ul>
-            <li>
-              <span></span>
-              <p>Basic SEO</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Social Media Management (2 platforms)</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Basic Brand Guidelines </p>
-            </li>
-            <li>
-              <span></span>
-              <p>Basic PPC setup</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Mobile Responsiveness</p>
-            </li>
-            <li>
-              <span></span>
-              <p>4 social media posts</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Logo Design (basic)</p>
-            </li>
-          </ul> -->
-<!-- <button class="common__btn" style="border-style: none;"> -->
-<!-- <a href="pricing.php" style="border-style: none;" class="common__btn">
-            <span>View More</span>
-            <img src="assets/icons/arrow-up-rignt-black.svg" alt="" />
-          </a> -->
-<!-- </button> -->
-<!-- </div>
-      </div>
-      <div class="col-xl-3 col-md-6 mb-4 mb-xl-0" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0" data-aos-duration="1000">
-        <div class="pricing__card">
-          <div class="text-center pricing__card_title">
-            <h6 class="">Business plan</h6>
-            <h1 class="t__54"> ₹ 40,000</h1>
-            <p>Per year</p>
-          </div>
-          <span class="border__full"></span>
-          <ul>
-            <li>
-              <span></span>
-              <p>Comprehensive SEO</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Social Media Management (3 platforms)</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Enhanced Logo Design</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Enhanced PPC setup</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Market Analysis Report</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Mobile Responsiveness</p>
-            </li>
-            <li>
-              <span></span>
-              <p>4 social media graphics</p>
-            </li>
-          </ul> -->
-<!-- <button class="common__btn" style="border-style: none;"> -->
-<!-- <a href="pricing.php" class="common__btn" style="border-style: none;">
-            <span>View More</span>
-            <img src="assets/icons/arrow-up-rignt-black.svg" alt="" />
-          </a> -->
-<!-- </button> -->
-<!-- </div>
-      </div>
-      <div class="col-xl-3 col-md-6 mb-4 mb-xl-0" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0" data-aos-duration="1000">
-        <div class="pricing__card">
-          <div class="text-center pricing__card_title">
-            <h6>Advanced plan</h6>
-            <h1 class="t__54"> ₹ 80,000 </h1>
-            <p>Per year</p>
-          </div>
-          <span class="border__full"></span>
-          <ul>
-            <li>
-              <span></span>
-              <p>Advanced SEO with regular monitoring and optimization</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Web Hosting</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Search Engine Optimization</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Paid Advertising System</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Social Media Management</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Maintenance and Updates</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Legal and Compliance</p>
-            </li>
-          </ul> -->
-<!-- <button class="common__btn" style="border-style: none;"> -->
-<!-- <a href="pricing.php" class="common__btn" style="border-style: none;">
-            <span>View More</span>
-            <img src="assets/icons/arrow-up-rignt-black.svg" alt="" /> -->
-<!-- </button> -->
-<!-- </a>
-        </div>
-      </div>
-      <div class="col-xl-3 col-md-6 mb-4 mb-xl-0" data-aos="fade-up" data-aos-delay="400" data-aos-offset="0" data-aos-duration="1000">
-        <div class="pricing__card">
-          <div class="text-center pricing__card_title">
-            <h6>Premium plan</h6>
-            <h1 class="t__54"> ₹ 1,00,00</h1>
-            <p>Per year</p>
-          </div>
-          <span class="border__full"></span>
-          <ul>
-            <li>
-              <span></span>
-              <p>Social Media Account Setup</p>
-            </li>
-            <li>
-              <span></span>
-              <p>16 social media posts
-                4 promotional videos </p>
-            </li>
-            <li>
-              <span></span>
-              <p>Search Engine Optimization</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Paid Advertising System</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Social Media Management</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Maintenance and Updates</p>
-            </li>
-            <li>
-              <span></span>
-              <p>Analytics and Reporting</p>
-            </li> 
-             
-          </ul> -->
-<!-- <button class="common__btn" style="border-style:none;"> -->
-<!-- <a href="pricing.php" class="common__btn" style="border-style: none;">
-            <span>View More</span>
-            <img src="assets/icons/arrow-up-rignt-black.svg" alt="" />
-          </a> -->
-<!-- </button> -->
-<!-- </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-<!-- --------------- pricing end ----------- -->
-
 <!-- --------------- Start Testimonial ----------- -->
 <section class="testimonial py__65 ">
   <div class="container ">
@@ -1500,162 +908,8 @@
         </div>
       </div>
     </div>
-
-    <!-- <div class="videos">
-      <div class="position-relative">
-        <img src="assets/img/testimonail/video.jpg" alt="" class="video_thumb" />
-        
-
-      </div>
-    </div> -->
   </div>
 </section>
-
-<!-- --------------- End Testimonial ----------- -->
-<!-- <div class="container position-relative" style="">
-  <div class="row">
-    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1" style="">
-      <div class="modal-dialog modal-dialog-centered ">
-        <div class="modal-content ">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5 text-center" id="exampleModalToggleLabel">The luminarylines</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            
-            <video data-autopause=false data-autoplay="true" data-mute=true data-loop=true data-fill-mode=fill>
-              <source src="assets/img/about/Luminary Video.mp4" type=video/mp4>
-            </video>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Modal 2</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            Hide this modal and show the first with the button below.
-          </div>
-          <div class="modal-footer">
-            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="btn " data-bs-target="#exampleModalToggle" data-bs-toggle="modal" style="width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #FA991C;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)"><img src="assets/img/testimonail/Frame_20.svg" alt="" /></button>
-  </div>
-</div> -->
-<!-- --------------- Start Blog ----------- -->
-<!-- <div class="container-fluid" style="margin-top: 500px;">
-  <div class="row blogs-row">
-    <div class="col-lg-4 blog-col1" style="background-color: #Fff;">
-      <h2>Our Blogs</h2>
-    </div>
-    <div class="blog-col2">
-    
-    </div>
-  </div>
-</div> -->
-
-<!-- con -->
-<!-- <section class="contact ">
-  <div class="container mt-5 in-con" style="margin: 50px 0px; margin-top:200px;">
-    <div class="row justify-content-between align-items-center">
-
-      <div class="col-lg-8 mt-5" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0" data-aos-duration="1000">
-        <div class="contact__form">
-          <h5 class="t__28">Get In Touch Here</h5>
-          <form action="">
-            <div class="row">
-              <div class="col-md-6">
-                <input type="text" placeholder="Your Name" />
-              </div>
-              <div class="col-md-6">
-                <input type="email" placeholder="Your Email" />
-              </div>
-              <div class="col-12">
-                <div class="custom-select" id="customSelect">
-                  <div class="select-styled" onclick="toggleOptions()">
-                    <span> Your Service</span>
-                    <i class="fa-solid fa-caret-down"></i>
-                  </div>
-                  <ul class="select-options">
-                    <li class="select-option" onclick="selectOption(this)">
-                      Option 1
-                    </li>
-                    <li class="select-option" onclick="selectOption(this)">
-                      Option 2
-                    </li>
-                    <li class="select-option" onclick="selectOption(this)">
-                      Option 3
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-12">
-                <textarea name="" id="" placeholder="Your Message"></textarea>
-              </div>
-              <div>
-                <button class="common__btn">
-                  Send Your Message
-                  <img src="assets/icons/arrow-up-right.svg" alt="" />
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="col-lg-4 mt-5" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
-        <div class="location">
-          <h3 class="t__54">Contact Us</h3>
-          <p class="location__disc">
-            Get in touch to discuss your employee well-being needs today.
-          </p>
-          <ul>
-            <li>
-              <img src="assets/icons/location.svg" alt="" />
-              <div>
-                <b>Location:</b>
-                <p>526, 5TH FLOOR, DLF TOWER A, JASOLA,
-                  NEW DELHI – 110025</p>
-              </div>
-            </li>
-            <li>
-              <img src="assets/icons/phone.png" alt="" />
-              <div>
-                <b>Call US:</b>
-                <p>+91 7428599745 | 011 49048335</p>
-              </div>
-            </li>
-            <li>
-              <img src="assets/icons/email 1.svg" alt="" />
-              <div>
-                <b>Send Message:</b>
-                <p> info@theluminarylines.com</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
 
 <div class="container-fluid intouch" id="getintouch">
   <div class="row">
@@ -1735,91 +989,14 @@
 <div class="container-fluid divid">
 
 </div>
-<!-- <div class="contaner-fluid contact-main">
-  <div class="row">
-    <div class="col-lg-4 c-img">
-      <img src="assets/img/clients/con-img.jpg" alt="">
-    </div>
-    <div class="col-lg-2" style="background-color: #F8F9FA;">
 
-    </div>
-    <div class="col-lg-8">
-      <form class="row g-3 needs-validation" novalidate>
-        <div class="col-md-4">
-          <label for="validationCustom01" class="form-label">First name</label>
-          <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-          <div class="valid-feedback">
-            Looks good!
-          </div>
-        </div>
-        <div class="col-md-4">
-          <label for="validationCustom02" class="form-label">Last name</label>
-          <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-          <div class="valid-feedback">
-            Looks good!
-          </div>
-        </div>
-        <div class="col-md-4">
-          <label for="validationCustomUsername" class="form-label">Username</label>
-          <div class="input-group has-validation">
-            <span class="input-group-text" id="inputGroupPrepend">@</span>
-            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-            <div class="invalid-feedback">
-              Please choose a username.
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <label for="validationCustom03" class="form-label">City</label>
-          <input type="text" class="form-control" id="validationCustom03" required>
-          <div class="invalid-feedback">
-            Please provide a valid city.
-          </div>
-        </div>
-        <div class="col-md-3">
-          <label for="validationCustom04" class="form-label">State</label>
-          <select class="form-select" id="validationCustom04" required>
-            <option selected disabled value="">Choose...</option>
-            <option>...</option>
-          </select>
-          <div class="invalid-feedback">
-            Please select a valid state.
-          </div>
-        </div>
-        <div class="col-md-3">
-          <label for="validationCustom05" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="validationCustom05" required>
-          <div class="invalid-feedback">
-            Please provide a valid zip.
-          </div>
-        </div>
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-            <label class="form-check-label" for="invalidCheck">
-              Agree to terms and conditions
-            </label>
-            <div class="invalid-feedback">
-              You must agree before submitting.
-            </div>
-          </div>
-        </div>
-        <div class="col-12">
-          <button class="btn btn-primary" type="submit">Submit form</button>
-        </div>
-      </form>
-    </div>
-  </div>
-</div> -->
-<!-- con -->
-<div class="container-fluid  ">
+<!-- <div class="container-fluid  ">
   <div class="row">
     <div class="col-lg-4 blog-col1 g-0 bg-light">
       <h1 class="fw-bold text-dark">Our<br> Blogs<span>...</span></h1>
     </div>
     <div class="col-lg-4 blog-col2 g-0">
       <h5><span>News </span> / 10 Febuary 2024</h5>
-      <!-- <img src="assets/img/blogs/b001.jpg" alt=""> -->
       <h4>From Vision to Reality: Luminary Lines' Role in Branding and Marketing
       </h4>
       <hr style="height:5px;  background:#000; width:50%; border-radius:10px; padding-left: 20px;" class="ms-3">
@@ -1830,7 +1007,6 @@
       <a href="from-vision.php" class="ab-btn"><span class="mb-5">Read more</span></a>
     </div>
     <div class="col-lg-4 blog-col2b g-0">
-      <!-- <img src="assets/img/blogs/b002.jpg" alt=""> -->
       <h5><span>News </span> / 24 March 2024</h5>
       <h4>Boost Your Website's Traffic With A Few Tricks
       </h4>
@@ -1842,8 +1018,8 @@
       <a href="boost-your-website.php" class="ab-btn "><span class="mb-5">Read more</span></a>
     </div>
   </div>
-</div>
-<div class="container-fluid blog-more">
+</div> -->
+<!-- <div class="container-fluid blog-more">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 blog-mbt">
@@ -1855,75 +1031,19 @@
       </div>
     </div>
   </div>
+</div> -->
+<!-- --------------- End Blog ----------- -->
+
+<!-- Let's Make Something Together Section Star -->
+
+<div class="lets-together-section">
+  <h1>Let’s make something great together</h1>
+  <h5>For more information, we are happy to provide consultation and help design your Brand Illuminate.</h5>
+  <a href="#" class="cta-btn">Begin Your Transformation Today ↗</a>
+
 </div>
 
-<!-- <section class="blogs " id="blogs" style="padding-top: 120px;">
-  <div class="container">
-
-    <div class="blogs__title" data-aos="fade-down" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
-      <h1 class=" text-center">
-        Blogs
-      </h1>
-    </div>
-    
-    <div class="blogs__wapper">
-     
-      <div class="row mt-5">
-        <div class="col-xl-4 col-md-6 mb-5 mb-xl-0" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
-          <div class="projects__2_card">
-            <a href="how-to-increase-website-traffic.php">
-              <img src="assets/img/blogs/b001.jpg" alt="" class="w-100" />
-            </a>
-            <div class="blogss">
-              <a href="how-to-increase-website-traffic.php" class=" t__28 text-dark"> How to Increase Website Traffic: 7 Simple Strategies
-              </a>
-              <div class="d-flex card__author ">
-                <p>Welcome to Luminary Lines' blog, where we provide actionable insights to help you succeed ...</p>
-
-                
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-6 mb-5 mb-xl-0" data-aos="fade-up" data-aos-delay="200" data-aos-offset="0" data-aos-duration="1000">
-          <div class="projects__2_card">
-            <a href="crafting-compelling-content.php">
-              <img src="assets/img/blogs/b002.jpg" alt="" class="w-100" />
-            </a>
-            <div class="blogss">
-              <a href="crafting-compelling-content.php" class=" t__28 text-dark">Crafting Compelling Content: Writing Stuff People Want to Read
-              </a>
-              
-              <div class="d-flex card__author ">
-                <p>Welcome to Luminary Lines' blog, where we share practical tips and insights to help you ...</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-6 mb-5 mb-xl-0" data-aos="fade-up" data-aos-delay="300" data-aos-offset="0" data-aos-duration="1000">
-          <div class="projects__2_card">
-            <a href="designing-your-brand.php">
-              <img src="assets/img/blogs/b003.jpg" alt="" class="w-100" />
-            </a>
-            <div class="blogss">
-              <a href="designing-your-brand.php" class=" t__28 text-dark"> Designing Your Brand: Making a Cool Logo for Your Business
-              </a>
-              <div class="d-flex card__author">
-                <p>Welcome to Luminary Lines' blog, your go-to resource for creative inspiration and practical ...</p>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-</section> -->
-
-
-
-<!-- --------------- End Blog ----------- -->
+<!-- Let's Make Something Together Section End -->
 
 
 <!-- --------------- start Footer ----------- -->
@@ -2125,6 +1245,30 @@ document.addEventListener("DOMContentLoaded", function () {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
 
+<!-- POP UP JS -->
+
+<script>
+  document.addEventListener("click", function (e) {
+    if (
+      e.target.tagName === "A" &&
+      e.target.innerText.includes("View Case Study") &&
+      e.target.closest(".bottom-left-card")
+    ) {
+      e.preventDefault();
+      document.getElementById("ncvet-popup").style.display = "flex";
+      document.body.style.overflow = "hidden";
+    }
+
+    if (
+      e.target.classList.contains("close-btn") ||
+      e.target.classList.contains("popup-overlay")
+    ) {
+      document.getElementById("ncvet-popup").style.display = "none";
+      document.body.style.overflow = "auto";
+    }
+  });
+</script>
+
 
 
 <!-- <script>
@@ -2142,6 +1286,84 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 </script> -->
+
+<!-- What we can do together JS -->
+
+<script>
+  const slider = document.querySelector('.cards-wrapper');
+  const track = document.querySelector('.cards-track');
+  const cards = document.querySelectorAll('.outer-card');
+  const dots = document.querySelectorAll('.dot');
+  const prevBtn = document.querySelector('.prev');
+  const nextBtn = document.querySelector('.next');
+
+  let index = 0;
+  let autoSlideInterval;
+
+  function cardsPerView() {
+    return window.innerWidth <= 768 ? 1 : 3;
+  }
+
+  function maxIndex() {
+    return cards.length - cardsPerView();
+  }
+
+  function updateSlider() {
+    const gap = window.innerWidth <= 768 ? 20 : 30;
+    const cardWidth = cards[0].offsetWidth + gap;
+    track.style.transform = `translateX(-${index * cardWidth}px)`;
+
+    dots.forEach(dot => dot.classList.remove('active'));
+    dots[index]?.classList.add('active');
+  }
+
+  function startAutoSlide() {
+    stopAutoSlide();
+    autoSlideInterval = setInterval(() => {
+      index = index < maxIndex() ? index + 1 : 0;
+      updateSlider();
+    }, 5000);
+  }
+
+  function stopAutoSlide() {
+    clearInterval(autoSlideInterval);
+  }
+
+  slider.addEventListener('mouseenter', stopAutoSlide);
+  slider.addEventListener('mouseleave', startAutoSlide);
+
+  /* Buttons */
+  nextBtn.addEventListener('click', () => {
+    stopAutoSlide();
+    if (index < maxIndex()) index++;
+    updateSlider();
+    startAutoSlide();
+  });
+
+  prevBtn.addEventListener('click', () => {
+    stopAutoSlide();
+    if (index > 0) index--;
+    updateSlider();
+    startAutoSlide();
+  });
+
+  dots.forEach((dot, i) => {
+    dot.addEventListener('click', () => {
+      stopAutoSlide();
+      index = i;
+      updateSlider();
+      startAutoSlide();
+    });
+  });
+
+  window.addEventListener('resize', () => {
+    index = 0;
+    updateSlider();
+  });
+
+  updateSlider();
+  startAutoSlide();
+</script>
 
 </body>
 </html>
