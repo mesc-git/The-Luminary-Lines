@@ -334,7 +334,7 @@
 <section class="what-we-do-section">
 
   <div class="what-we-can-do">
-    <h1>What Can We Do Together?</h1>
+    <h2>What Can We Do Together?</h2>
   </div>
 
  <div class="cards-wrapper">
@@ -383,7 +383,6 @@
   </div>
 </div>
 
-  <!-- Pagination -->
   <div class="pagination">
     <button class="nav-btn prev">&lt;</button>
 
@@ -400,6 +399,7 @@
 
 
 
+
  <!-- Case Studies Section  -->
 
    <div class="case-studies-heading">
@@ -412,22 +412,24 @@
   <div class="left-section">
 
     <!-- Top Card -->
-    <div class="top-card">
-       <h3 class="card-text">National Skill Development Corporation (NSDC)</h3>
-        <a href="#">View Case Study →</a>
-    </div>
+    <div class="top-card" data-popup="nsdc">
+  <h3 class="card-text">
+    National Skill Development Corporation (NSDC)
+  </h3>
+  <a href="#">View Case Study →</a>
+</div>
 
     
     <div class="bottom-cards">
       
       <!-- Bottom Left Card -->
-      <div class="bottom-left-card">
+      <div class="bottom-left-card" data-popup="ncvet">
         <h3 class="card-text">National Council for Vocational Education and Training (NCVET)</h3>
       <a href="#">View Case Study →</a>
       </div>
 
       <!-- Bottom Right Card -->
-      <div class="bottom-right-card">
+      <div class="bottom-right-card" data-popup="ficsi">
         <h3 class="card-text">Food Industry Capacity & Skill Initiative (FICSI)</h3>
         <a href="#">View Case Study →</a>
       </div>
@@ -445,7 +447,93 @@
 </div>
 
 <!-- PopUp Section Start -->
- <!-- <div class="popup-overlay" id="ncvet-popup">
+
+<!-- NSDC CARD -->
+
+<div class="popup-overlay" id="nsdc-popup">
+
+  <div class="popup-box">
+    <button class="close-btn">&times;</button>
+
+    <img src="assets/img/services/event-campaign-management.png"  alt="NSDC">
+
+    <div class="popup-content">
+      <h2>Simplifying India's Apprenticeship Journey Through Visual Learning</h2>
+
+
+      <p>
+     NSDC's Apprenticeship Programme needed simplified portal guidance for India's diverse audience. The challenge: translating technical workflows into accessible, bilingual content (Hindi & English) for non-technical users. Luminary Lines produced animated explainer videos with clean visuals and integrated subtitles, guiding users through registration and support processes. These videos now serve as official guidance tools, improving onboarding and reducing manual support dependency nationwide.
+
+      </p>
+
+      <h3>Strategic Approach for Success</h3>
+
+      <p>
+     Luminary Lines executed the project <strong>end-to-end</strong>, from concept development and scripting to animation and final delivery. Our team focused on creating clean, minimal animations that avoided cognitive overload while maintaining logical sequencing for easy understanding. Each video was structured to walk users through specific workflows,
+     <strong>candidate registration, trainer registration, and raising support tickets,</strong> using consistent visual language and clear, step-by-step representation.
+
+      </p>
+
+      <br>
+
+      <p>
+        To ensure maximum accessibility, all videos were produced bilingually in <strong>Hindi and English </strong>with integrated subtitles, supporting learners across linguistic backgrounds and first-time portal users. The animation style prioritized clarity over embellishment, ensuring that every frame served an instructional purpose and aligned with NSDC's mission of democratizing skill development across India.
+      </p>
+
+      <h3>Outcomes</h3>
+
+      <p>
+      Luminary Lines successfully delivered <strong> multi-module animated explainer videos </strong> that are now used as official user guidance tools for the NSDC Apprenticeship Programme. The videos have significantly improved clarity and ease of onboarding for candidates and trainers, reducing dependency on manual support for basic queries and enabling scalable, self-guided learning for portal users nationwide. The project has strengthened NSDC's digital communication and outreach efforts, making the apprenticeship process more accessible and user-friendly across India's diverse demographic landscape.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- FICSI CARD -->
+
+<div class="popup-overlay" id="ficsi-popup">
+  <div class="popup-box">
+    <button class="close-btn">&times;</button>
+
+    <img src="assets/img/services/event-campaign-management.png"  alt="FICSI">
+
+    <div class="popup-content">
+      <h2>Transforming Bakery Training into Scalable Digital Learning</h2>
+
+      <!-- <p><strong>Client:</strong> National Council for Vocational Education and Training (NCVET)</p>
+      <p><strong>Launch Platform:</strong> Bharat SkillNXT 2025</p>
+      <p><strong>Launched by:</strong> Hon'ble Shri Jayant Chaudhary</p>
+      <p><strong>Editing & Post-Production:</strong> Luminary Lines</p> -->
+
+      <p>
+      FICSI launched an e-learning module on Bakery & Bakery Products (Level II), requiring high-quality digital content for nationwide learners. The challenge: translating hands-on bakery processes into engaging, accurate digital learning while maintaining professional quality across modules. Luminary Lines executed end-to-end production, creating structured, platform-ready content now live on FICSI's portal strengthening their digital ecosystem and enabling scalable bakery training across India.
+
+      </p>
+
+      <h3>Strategic Approach for Success</h3>
+
+      <p>
+     Luminary Lines handled the project <strong>end-to-end</strong>, covering both on-ground production and complete post-production. Our team focused on creating clean, distraction-free visuals that enhanced learner focus while structuring the editing to support step-by-step understanding of practical bakery techniques.
+      </p>
+      <br>
+      <p>
+        We ensured <strong>visual consistency and instructional pacing</strong> suitable for e-learning consumption, optimizing each module for platform delivery. Custom thumbnails were created for easy course navigation, and rigorous quality checks were implemented to deliver platform-ready outputs without requiring rework. Every frame was aligned with FICSI's specifications and the broader mission of providing industry-relevant, skill-based education to food sector professionals.
+      </p>
+
+      <h3>Outcomes</h3>
+
+      <p>
+       Luminary Lines successfully delivered the complete <strong>Bakery & Bakery Products (Level II) course module</strong>,with all videos and thumbnails approved and uploaded on FICSI's official e-learning platform. The course is now <strong>live and accessible to learners nationwide</strong>, strengthening FICSI's digital learning ecosystem and enabling scalable training delivery for bakery sector professionals across India. The project has become a key component of FICSI's skill development portfolio, supporting the Food SSC's mission of democratizing vocational education through technology.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<!-- NCVET CARD -->
+
+ <div class="popup-overlay" id="ncvet-popup">
   <div class="popup-box">
     <button class="close-btn">&times;</button>
 
@@ -454,33 +542,28 @@
     <div class="popup-content">
       <h2>Launching India's Digital Skilling Vision at a National Stage</h2>
 
-      <p><strong>Client:</strong> National Council for Vocational Education and Training (NCVET)</p>
-      <p><strong>Launch Platform:</strong> Bharat SkillNXT 2025</p>
-      <p><strong>Launched by:</strong> Hon'ble Shri Jayant Chaudhary</p>
-      <p><strong>Editing & Post-Production:</strong> Luminary Lines</p>
-
       <p>
-       The National Council for Vocational Education and Training (NCVET) conceptualized Kaushalverse, a futuristic digital platform designed to strengthen India's skilling and vocational education framework. With its official unveiling scheduled at Bharat SkillNXT 2025, one of India's premier skilling events, NCVET needed a powerful introductory video that could communicate this complex vision clearly and compellingly to policymakers, industry leaders, and stakeholders nationwide.
-The video would be formally launched by Hon'ble Minister Shri Jayant Chaudhary, making it a high-visibility, high-stakes communication asset requiring institutional precision, national relevance, and visual impact. The challenge: deliver a polished, future-ready narrative under tight timelines while ensuring the platform's digital complexity was accessible to a diverse audience.
+       NCVET conceptualized Kaushalverse, a futuristic digital platform for India's skilling ecosystem, launching at Bharat SkillNXT 2025. With Hon'ble Minister Shri Jayant Chaudhary unveiling the video, NCVET needed institutional precision and visual impact under tight timelines. Luminary Lines handled complete post-production, crafting clean storytelling that simplified the platform's complexity while maintaining national relevance, delivering a launch-ready video for India's premier skilling forum.
 
       </p>
 
       <h3>Strategic Approach for Success</h3>
 
       <p>
-      Luminary Lines handled the project end-to-end, managing the complete post-production workflow from creative structuring to final mastering. Our team focused on crafting a clean, structured storytelling approach that simplified the platform's purpose without diluting its technological sophistication.
-We employed balanced visual pacing, seamless transitions, and motion design to reflect the future-ready nature of Kaushalverse, while maintaining the formal tone required for a ministerial launch. Through multiple review iterations with NCVET stakeholders, we ensured every frame aligned with institutional branding, accuracy, and the broader narrative of India's digital skilling transformation. The final product was mastered for large-screen event playback, ensuring maximum impact at the national forum.
-
+     Luminary Lines handled the project end-to-end, managing the complete post-production workflow from creative structuring to final mastering. Our team focused on crafting a clean, structured storytelling approach that simplified the platform's purpose without diluting its technological sophistication.
       </p>
+      <br>
+      <p>We employed balanced visual pacing, seamless transitions, and motion design to reflect the future-ready nature of Kaushalverse, while maintaining the formal tone required for a ministerial launch. Through multiple review iterations with NCVET stakeholders, we ensured every frame aligned with institutional branding, accuracy, and the broader narrative of India's digital skilling transformation. The final product was mastered for large-screen event playback, ensuring maximum impact at the national forum.</p>
 
       <h3>Outcomes</h3>
 
       <p>
-       The Kaushalverse introductory video was successfully launched at Bharat SkillNXT 2025 and received strong visibility across India's skilling ecosystem. It effectively communicated NCVET's vision to policymakers, industry leaders, and stakeholders, establishing the platform's identity at launch and supporting the organization's broader narrative around digital skilling and innovation. The video became a key communication asset for introducing Kaushalverse at national forums and continues to serve as a foundational piece in NCVET's digital skilling advocacy.
+       The Kaushalverse introductory video was <strong>successfully launched at Bharat SkillNXT 2025</strong> and received strong visibility across India's skilling ecosystem. It effectively communicated NCVET's vision to policymakers, industry leaders, and stakeholders, establishing the platform's identity at launch and supporting the organization's broader narrative around digital skilling and innovation. The video became a key communication asset for introducing Kaushalverse at national forums and continues to serve as a foundational piece in NCVET's digital skilling advocacy.
       </p>
     </div>
   </div>
-</div> -->
+</div>
+
 
 
 
@@ -488,13 +571,7 @@ We employed balanced visual pacing, seamless transitions, and motion design to r
  
 <section class="latest-works">
   <div class="container">
-    <h2>Our Portfolio</h2>
-
-    <div class="divider">
-      <span></span>
-      <i>✦</i>
-      <span></span>
-    </div>
+    <h2>Our Latest Works</h2>
 
     <!-- Filters -->
     <ul class="work-filters">
@@ -780,16 +857,14 @@ We employed balanced visual pacing, seamless transitions, and motion design to r
 </section>
 
 
-<!-- --------------- Start Testimonial ----------- -->
-<section class="testimonial py__65 ">
+<!-- --------------- Start Testimonial Section ----------- -->
+<!-- <section class="testimonial py__65 ">
   <div class="container ">
-    <!-- title Start -->
     <div class="testimonial__title" data-aos="fade-down" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
       <h1 class="title-testimonials text-center">
         Testimonials
       </h1>
     </div>
-    <!-- title End -->
 
     <div class="testimonial__wapper" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0" data-aos-duration="1000">
       <div class="testimonial__slides">
@@ -909,16 +984,76 @@ We employed balanced visual pacing, seamless transitions, and motion design to r
       </div>
     </div>
   </div>
+</section> -->
+
+<section class="testimonial-section">
+  <h2 class="testimonial-title">Experiences That Speak</h2>
+
+  <div class="testimonial-wrapper">
+    <div class="testimonial-track">
+
+      <!-- Card 1 -->
+      <div class="testimonial-card dark">
+        <p>
+          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
+          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
+          Lorem Ipsum is a dummy text.
+        </p>
+
+        <div class="testimonial-user">
+          <span>Ruins of Nalanda</span>
+          <img src="assets/img/user.jpg" alt="">
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="testimonial-card light">
+        <p>
+          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
+          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
+          Lorem Ipsum is a dummy text.
+        </p>
+
+        <div class="testimonial-user">
+          <span>Ruins of Nalanda</span>
+          <img src="assets/img/user.jpg" alt="">
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="testimonial-card brown">
+        <p>
+          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
+          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
+          Lorem Ipsum is a dummy text.
+        </p>
+
+        <div class="testimonial-user">
+          <span>Ruins of Nalanda</span>
+          <img src="assets/img/user.jpg" alt="">
+        </div>
+      </div>
+
+      <!-- duplicate cards for smooth infinite scroll -->
+      <div class="testimonial-card dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eum rerum, fugiat dolor quas et minus corporis, tenetur explicabo aliquid, dolorum provident. Similique tenetur reprehenderit iusto officia nesciunt culpa mollitia!</p></div>
+
+      <!-- <div class="testimonial-card light">...</div>
+      <div class="testimonial-card brown">...</div> -->
+
+    </div>
+  </div>
 </section>
 
-<div class="container-fluid intouch" id="getintouch">
+
+
+<!-- End Testimonial Section -->
+<!-- <div class="container-fluid intouch" id="getintouch">
   <div class="row">
     <div class="col-lg-4 text-center col-12">
       <div class="cont-title">
         <h1>Get In Touch <br>With Us!</h1>
       </div>
     </div>
-    <!-- <div class="col-md-2 d-lg-block d-none" style="background-color: #333; width:30px;"></div> -->
     <div class="col-lg-8 col-12">
       <div class="contac-form ">
        <div id="form-container">
@@ -964,19 +1099,19 @@ We employed balanced visual pacing, seamless transitions, and motion design to r
     <div class="col-12">
       <button class="btn f-btn" type="submit">Submit form</button>
     </div>
-  </form>
+  </form> -->
 
   <!-- LOADER -->
-  <div id="loader" style="display:none; text-align:center; margin-top:20px;">
+  <!-- <div id="loader" style="display:none; text-align:center; margin-top:20px;">
     <div class="spinner-border text-primary" role="status">
       <span class="visually-hidden">Loading...</span>
     </div>
     <p style="margin-top:10px;">Submitting, please wait...</p>
   </div>
-</div>
+</div> -->
 
 <!-- THANK YOU MESSAGE -->
-<div id="thank-you-message" style="display:none; text-align:center;">
+<!-- <div id="thank-you-message" style="display:none; text-align:center;">
   <h3>Thank you!</h3>
   <p>Your details has been submitted successfully.  
      We’ll get back to you shortly.</p>
@@ -988,7 +1123,7 @@ We employed balanced visual pacing, seamless transitions, and motion design to r
 </div>
 <div class="container-fluid divid">
 
-</div>
+</div> -->
 
 <!-- <div class="container-fluid  ">
   <div class="row">
@@ -1248,26 +1383,51 @@ document.addEventListener("DOMContentLoaded", function () {
 <!-- POP UP JS -->
 
 <script>
-  document.addEventListener("click", function (e) {
-    if (
-      e.target.tagName === "A" &&
-      e.target.innerText.includes("View Case Study") &&
-      e.target.closest(".bottom-left-card")
-    ) {
-      e.preventDefault();
-      document.getElementById("ncvet-popup").style.display = "flex";
+document.addEventListener("click", function (e) {
+
+  // Open popup
+  const link = e.target.closest("a");
+  if (link && link.innerText.includes("View Case Study")) {
+
+    const card = link.closest("[data-popup]");
+    if (!card) return;
+
+    e.preventDefault();
+
+    const popupId = card.dataset.popup + "-popup";
+    const popup = document.getElementById(popupId);
+
+    if (popup) {
+      popup.style.display = "flex";
       document.body.style.overflow = "hidden";
     }
+  }
 
-    if (
-      e.target.classList.contains("close-btn") ||
-      e.target.classList.contains("popup-overlay")
-    ) {
-      document.getElementById("ncvet-popup").style.display = "none";
-      document.body.style.overflow = "auto";
-    }
+  // Close popup
+  if (
+    e.target.classList.contains("close-btn") ||
+    e.target.classList.contains("popup-overlay")
+  ) {
+    closeAllPopups();
+  }
+});
+
+// ESC close
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape") {
+    closeAllPopups();
+  }
+});
+
+function closeAllPopups() {
+  document.querySelectorAll(".popup-overlay").forEach(popup => {
+    popup.style.display = "none";
   });
+  document.body.style.overflow = "auto";
+}
 </script>
+
+
 
 
 

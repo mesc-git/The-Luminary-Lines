@@ -183,7 +183,8 @@
           </li>
           <li class="dropdown__container ms-4">
             <div class="d-flex justify-content-between align-items-center ga">
-              <a href="about-us.php">About Us </a>
+              <!-- <a href="about-us.php">About Us </a> -->
+               <a href="aboutCopy.php">About Us</a>
             </div>
           </li>
 
