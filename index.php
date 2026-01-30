@@ -402,8 +402,8 @@
 
  <!-- Case Studies Section  -->
 
-   <div class="case-studies-heading">
-    <h2 class="text-center text-dark fw-#400">Explore Our Case Studies</h2>
+<div class="case-studies-heading">
+    <h2 class="text-center text-dark">Explore Our Case Studies</h2>
   </div>
 
 <div class="case-studies">
@@ -563,6 +563,68 @@
     </div>
   </div>
 </div>
+
+<!-- New Testimonial Section Start -->
+
+<section class="testimonial-section">
+  <h2 class="testimonial-title">Experiences That Speak</h2>
+
+  <div class="testimonial-wrapper">
+    <div class="testimonial-track">
+
+      <!-- Card 1 -->
+      <div class="testimonial-card dark">
+        <p>
+          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
+          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
+          Lorem Ipsum is a dummy text.
+        </p>
+
+        <div class="testimonial-user">
+          <span>Ruins of Nalanda</span>
+          <img src="assets/img/user.jpg" alt="">
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="testimonial-card light">
+        <p>
+          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
+          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
+          Lorem Ipsum is a dummy text.
+        </p>
+
+        <div class="testimonial-user">
+          <span>Ruins of Nalanda</span>
+          <img src="assets/img/user.jpg" alt="">
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="testimonial-card brown">
+        <p>
+          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
+          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
+          Lorem Ipsum is a dummy text.
+        </p>
+
+        <div class="testimonial-user">
+          <span>Ruins of Nalanda</span>
+          <img src="assets/img/user.jpg" alt="">
+        </div>
+      </div>
+
+      <!-- duplicate cards for smooth infinite scroll -->
+      <div class="testimonial-card dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eum rerum, fugiat dolor quas et minus corporis, tenetur explicabo aliquid, dolorum provident. Similique tenetur reprehenderit iusto officia nesciunt culpa mollitia!</p></div>
+
+      <!-- <div class="testimonial-card light">...</div>
+      <div class="testimonial-card brown">...</div> -->
+
+    </div>
+  </div>
+</section>
+
+<!-- New Testimonial Section End -->
 
 
 
@@ -986,63 +1048,7 @@
   </div>
 </section> -->
 
-<section class="testimonial-section">
-  <h2 class="testimonial-title">Experiences That Speak</h2>
 
-  <div class="testimonial-wrapper">
-    <div class="testimonial-track">
-
-      <!-- Card 1 -->
-      <div class="testimonial-card dark">
-        <p>
-          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
-          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
-          Lorem Ipsum is a dummy text.
-        </p>
-
-        <div class="testimonial-user">
-          <span>Ruins of Nalanda</span>
-          <img src="assets/img/user.jpg" alt="">
-        </div>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="testimonial-card light">
-        <p>
-          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
-          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
-          Lorem Ipsum is a dummy text.
-        </p>
-
-        <div class="testimonial-user">
-          <span>Ruins of Nalanda</span>
-          <img src="assets/img/user.jpg" alt="">
-        </div>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="testimonial-card brown">
-        <p>
-          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
-          Lorem Ipsum is a dummy text. Lorem Ipsum is a dummy text.
-          Lorem Ipsum is a dummy text.
-        </p>
-
-        <div class="testimonial-user">
-          <span>Ruins of Nalanda</span>
-          <img src="assets/img/user.jpg" alt="">
-        </div>
-      </div>
-
-      <!-- duplicate cards for smooth infinite scroll -->
-      <div class="testimonial-card dark"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eum rerum, fugiat dolor quas et minus corporis, tenetur explicabo aliquid, dolorum provident. Similique tenetur reprehenderit iusto officia nesciunt culpa mollitia!</p></div>
-
-      <!-- <div class="testimonial-card light">...</div>
-      <div class="testimonial-card brown">...</div> -->
-
-    </div>
-  </div>
-</section>
 
 
 
