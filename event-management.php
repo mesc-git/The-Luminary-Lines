@@ -84,7 +84,7 @@
 .top-banner {
   width: 100%;
   height: 50vh;
-  background-image: url("assets/img/homepageImages/consultancy-img.png");
+  background-image: url("https://www.premiumbeat.com/blog/wp-content/uploads/2019/10/shutterstock_686692210-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -168,12 +168,13 @@
   left: 0;
   height: var(--line-height);
   background: var(--line-color);
-  width: calc((100% / 3) * var(--items));
-  /* width: 100%; */
+  /* width: calc((100% / 3) * var(--items)); */
+  width: 100%;
 }
 
 .timeline-card {
   position: relative;
+  align-self: start;
 }
 
 .timeline-card::before {
