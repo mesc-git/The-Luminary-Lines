@@ -438,7 +438,7 @@
   </div>
 
   <!-- RIGHT SIDE -->
-  <div class="right-section">
+  <div class="right-section" data-popup="madeformedia">
     <div class="right-card">
       <h3 class="card-text">Made For Media</h3>
       <a href="#">View Case Study →</a>
@@ -559,6 +559,53 @@
 
       <p>
        The Kaushalverse introductory video was <strong>successfully launched at Bharat SkillNXT 2025</strong> and received strong visibility across India's skilling ecosystem. It effectively communicated NCVET's vision to policymakers, industry leaders, and stakeholders, establishing the platform's identity at launch and supporting the organization's broader narrative around digital skilling and innovation. The video became a key communication asset for introducing Kaushalverse at national forums and continues to serve as a foundational piece in NCVET's digital skilling advocacy.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Made For Media CARD -->
+
+<div class="popup-overlay" id="madeformedia-popup">
+
+  <div class="popup-box">
+    <button class="close-btn">&times;</button>
+
+    <img src="assets/img/services/event-campaign-management.png"  alt="MFM">
+
+    <div class="popup-content">
+      <h2>Launching India's Premier Creative Career Platform</h2>
+
+      <p>
+   Made for Media bridged aspiring creatives with the M&E industry through performances and career guidance. The challenge: launch a first-of-its-kind event featuring Padma Shri Dr. Shankar Mahadevan, Oscar winner Dr. Resul Pookutty, and other luminaries while engaging students and generating nationwide visibility. Luminary Lines executed complete event production, strategy, and PR.
+
+      </p>
+
+      <h3>Strategic Approach for Success</h3>
+
+      <p>
+     Luminary Lines executed a comprehensive multi-channel strategy combining event management, student outreach, partnership development, and aggressive digital PR. We handled complete event production- stage design, AV coordination, artist management, logistics, and on-ground execution ensuring seamless performances and career talk sessions that resonated with students and parents alike.
+
+      </p>
+
+      <br>
+
+      <p>
+       Our outreach strategy engaged <strong>4,700+ students across India</strong> through school partnerships, college collaborations, and digital campaigns. We facilitated <strong>three strategic MoUs</strong> with educational institutions and industry partners, strengthening IICS's position in the creative education landscape. Simultaneously, our PR team executed a digital-first media strategy that generated <strong>500+ digital media placements</strong>, creating unprecedented visibility for the event and IICS.
+      </p>
+
+      <p>
+        The event delivered on its promise: mesmerizing performances from industry legends combined with candid career insights, offering students and parents a comprehensive understanding of opportunities in animation, music, sound design, events, and media production.
+      </p>
+
+      <h3>Outcomes</h3>
+
+      <p>
+      Made for Media successfully launched as <strong>India's premier creative career platform</strong>, establishing IICS as a leader in creative education and MESC as the authoritative voice in skill development for media and entertainment. The event generated massive student engagement <strong>(4,700+ attendees)</strong>, secured institutional credibility through <strong>three MoUs</strong>, and achieved <strong>500+ digital PR placements </strong>across national and regional media.
+      </p>
+
+      <p>
+        Beyond metrics, Made for Media created lasting impact inspiring thousands of students to pursue creative careers, strengthening the MESC-IICS-NSDC ecosystem, and establishing a replicable model for similar events nationwide. The success of the Delhi edition has paved the way for a nationwide series, positioning IICS and MESC at the forefront of India's creative education revolution.
       </p>
     </div>
   </div>
@@ -1432,9 +1479,6 @@ function closeAllPopups() {
   document.body.style.overflow = "auto";
 }
 </script>
-
-
-
 
 
 <!-- <script>

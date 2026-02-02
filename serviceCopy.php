@@ -31,7 +31,7 @@
                 skill councils, universities, and brands. We enhance visibility,
                 drive engagement, and build lasting recognition.
             </p>
-            <a href="#">READ MORE</a>
+            <a href="branding-promo.php" target="_blank" rel="noopener noreferrer">READ MORE</a>
         </div>
 
         <div class="service-card">
@@ -39,7 +39,9 @@
             <p>
                 Expert guidance for skill councils, institutions, and organizations. We deliver strategic frameworks, program development, accreditation support, and policy advocacy for sustainable growth.
             </p>
-            <a href="#">READ MORE</a>
+            <a href="consultancy-advocacy.php" target="_blank" rel="noopener noreferrer">
+  READ MORE
+</a>
         </div>
 
         <div class="service-card">
@@ -47,7 +49,9 @@
             <p>
                 Professional audiovisual content for institutions and brands, training modules, promotional videos, corporate films, and awareness campaigns that communicate effectively and engage stakeholders.
             </p>
-            <a href="#">READ MORE</a>
+           <a href="audio-video-prod.php" target="_blank" rel="noopener noreferrer">
+  READ MORE
+</a>
         </div>
 
         <div class="service-card">
@@ -56,7 +60,9 @@
                 Strategic reputation management and communications for skill councils, institutions, and brands. Media relations, thought leadership, stakeholder engagement, and crisis management services.
 
             </p>
-            <a href="#">READ MORE</a>
+            <a href="pr-communication.php" target="_blank" rel="noopener noreferrer">
+  READ MORE
+</a>
         </div>
 
         <div class="service-card">
@@ -64,7 +70,9 @@
             <p>
                 End-to-end execution of conferences, workshops, skill competitions, convocations, and launches for skill councils, universities, and brands. Seamless, impactful experiences delivered.
             </p>
-            <a href="#">READ MORE</a>
+            <a href="event-management.php" target="_blank" rel="noopener noreferrer">
+  READ MORE
+</a>
         </div>
 
     </div>
